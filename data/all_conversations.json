@@ -1,0 +1,271 @@
+[
+    {
+        "date": "2025-01-15",
+        "event_type": "ChangePlanEvent",
+        "event_description": "Ruby initiated message: Welcome to Elyx!",
+        "conversation": [
+            "Rohan Patel: Hi, thanks for the warm welcome! I\u2019m looking forward to getting started.  ",
+            "Elyx Team: Great to have you, Rohan! Since wellness is holistic, would you like to focus on sleep, nutrition, or stress first?  ",
+            "Rohan Patel: I\u2019d love to kick off with sleep hygiene tips\u2014I have trouble falling asleep at night."
+        ],
+        "participants": []
+    },
+    {
+        "date": "2025-01-16",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: Thanks! I'm excited to get started.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \u2013 thanks for the quick reply. Since I travel a lot (UK, US, South Korea, Jakarta), I often struggle to fall asleep quickly in different time zones. Could you recommend 2\u20113 evidence\u2011based pre\u2011bed habits that work well for international jet\u2011lag and can be slipped into a tight travel schedule? Also, is there a way to sync those tips with my wearable data?",
+            "Ruby: Hey there! \ud83c\udf0d For quick jet\u2011lag sleep, try (1) dimming the lights 30\u202fmin before bedtime and doing a short 20\u2011min stretch or breathing exercise, and (2) limiting caffeine to before 2\u202fpm and opting for a light protein snack before bed\u2014both are backed by research. If your wearable tracks heart\u2011rate variability and sleep stages, you can sync it through the app\u2019s \u201cTravel Sync\u201d feature to fine\u2011tune those routines. I\u2019ve forwarded your request to Dr. Warren for further personalized guidance.",
+            "Dr. Warren: Hi Elyx \u2013 here are three concise, evidence\u2011based pre\u2011bed habits that fit a tight travel schedule and can be synced with your wearable:\n\n1. Timed low\u2011dose melatonin (0.5\u20111\u202fmg) taken 30\u201345\u202fmin before your target bedtime in the arrival time zone \u2013 studies show it shifts circadian phase with minimal side effects.  \n2. 30\u2011min guided progressive muscle relaxation or controlled breathing right before sleep; the resulting heart\u2011rate variability (HRV) peaks are easily detected by most wearables, signalling optimal rest onset.  \n3. Avoid blue\u2011light exposure (use a blue\u2011light filter or \u201cnight mode\u201d) for 1\u20132\u202fh before bed and then dim the lights to cue melatonin production; your wearable\u2019s light\u2011sensor data can alert you when the environment matches the recommended dimming window.\n\nSync these habits by setting your wearable\u2019s \u201csleep\u2011ready\u201d reminder to trigger when HRV, skin\u2011temperature, and ambient light data indicate bedtime readiness."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-16",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \u2013 thanks for the tips. I\u2019m 46, have mild hypertension and take a beta\u2011blocker. Is the 0.5\u20111\u202fmg pre\u2011bed melatonin dose safe for me, or should I adjust the dose/timing to avoid any interaction with my meds?",
+            "Ruby: Hey there! I\u2019ve noted your question about the 0.5\u20111\u202fmg pre\u2011bed melatonin dose with your beta\u2011blocker\u2014shifting to a slightly lower dose (0.5\u202fmg) usually stays safe, but I\u2019ll double\u2011check for your exact meds. I\u2019ve forwarded this to Dr.\u202fWarren for a quick confirmation, and he\u2019ll get back to you shortly. I\u2019ll ping you as soon as we have his advice!",
+            "Dr. Warren: Hi, Dr.\u202fWarren here. A 0.5\u20131\u202fmg dose of melatonin taken 30\u201360\u202fmin before sleep is pharmacologically safe in patients on beta\u2011blockers; there\u2019s no direct interaction, but melatonin can mildly lower blood pressure, so start at 0.5\u202fmg and watch your overnight readings. If you notice hypotension or excessive drowsiness, taper to 0.25\u202fmg or discontinue. Let me know how it goes or if you feel any changes."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-17",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Thanks for confirming the melatonin dose. I take my beta\u2011blocker at 8\u202fpm \u2013 what would be the safest time to take melatonin so I don\u2019t risk an extra drop in nocturnal blood pressure? Could you advise a specific timing window and any wearable\u2011based indicators to watch for?",
+            "Ruby: Hey there, great question!  \nGive your beta\u2011blocker at 8\u202fpm and take melatonin about 9:30\u201110:15\u202fpm\u2014this 90\u2011120\u202fminute window gives your body a healthy buffer and reduces the risk of an extra nocturnal BP dip.  \nWatch your wearable\u2019s heart\u2011rate variability (HRV) and any low\u2011systolic trend in the hour before bed; if it flags a sudden dip, you can shift melatonin a bit later.  \n\nI\u2019ve passed your query on to Dr.\u202fWarren for a more detailed review and will keep you updated. Just let me know if anything changes!",
+            "Dr. Warren: Hey, given your 8\u202fpm beta\u2011blocker, I\u2019d recommend scheduling melatonin no earlier than 10\u202fpm\u2014allow at least a 2\u2011hour buffer to mitigate additive hypotension. Ideally, aim for 10\u201311\u202fpm each night so the peak melatonin effect overlaps with the low\u2011night dip but doesn\u2019t coincide with the peak beta\u2011blocker suppression. Use a watch with HRV and skin\u2011temperature monitoring; a large drop in HRV or a shallow skin\u2011temperature rise during the first hour post\u2011beta\u2011blocker signals an exaggerated nocturnal BP dip. If you see those signs, delay melatonin until the second half of the hour, or adjust the dose if the trend persists."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-17",
+        "event_type": "ProactiveCheckInEvent",
+        "event_description": "Dr. Warren proactively checks in: Just checking in to see how you are doing.",
+        "conversation": [
+            "Dr. Warren: Hey Rohan\u2014welcome aboard Elyx!\u202fTo improve your sleep onset, aim to keep a consistent bedtime routine, reduce blue\u2011light exposure 90\u202fminutes before sleep, and keep the bedroom dark, cool (around 18\u201320\u00b0C), and quiet.\u202fAlso, limit caffeine and heavy meals after 4\u202fp.m. and incorporate a brief 10\u2011minute wind\u2011down ritual (e.g., deep breathing or a short walk) to cue your brain for rest.",
+            "Rohan Patel: Great call, team. I\u2019ll set a nightly \u201cwind\u2011down\u201d timer for 10\u202fmin, block blue\u2011light via my phone and keep the room at 18\u00b0C. I\u2019ll also track caffeine and meal times with a simple log to confirm the 4\u202fp.m. cut\u2011off\u2014let me know if you have any other tweaks. \ud83d\ude80"
+        ],
+        "participants": [
+            "Member",
+            "Dr. Warren"
+        ]
+    },
+    {
+        "date": "2025-01-18",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \u2013 I\u2019m running into a small snag with my travel schedule.  \nWhen I take my beta\u2011blocker at 8\u202fpm followed by melatonin at ~10\u201111\u202fpm, I often notice a sudden dip in the HRV sensor data and a slight drop in my cuff\u2011based nighttime BP readings.  \nCould the wearable\u2019s HRV/skin\u2011temperature alerts reliably flag an excessive nocturnal hypotension so I can safely adjust either the beta\u2011blocker timing or melatonin dose, and if so, what specific thresholds should I watch?",
+            "Ruby: Hey! I hear how the beta\u2011blocker and melatonin are affecting your night\u2014impressive that you\u2019re noting the pattern. Most HRV/skin\u2011temp wearables can flag a significant dip (often a 30\u201140\u202f% drop below your baseline HRV or a marked skin\u2011temp decline), but what counts as \u201cexcessive nocturnal hypotension\u201d is best personalized with a clinician. I\u2019ve forwarded the details to Dr.\u202fWarren, and you\u2019ll hear from him about the exact thresholds and any safe adjustments to your schedule.",
+            "Dr. Warren: Hi Elyx \u2013 the HRV drop you\u2019re seeing can flag nocturnal hypotension, but it\u2019s not a definitive diagnostic tool. Typically, a >10\u202f% reduction in HRV from your personal baseline, coupled with a cuff\u2011based nighttime SBP fall >20\u202fmmHg (or a drop >25\u202f% from daytime values), should raise a red flag. If you hit those thresholds, consider shifting the beta\u2011blocker to 6\u202fpm or reducing the melatonin to 5\u202fmg; monitor the next night to confirm the change."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-18",
+        "event_type": "ProactiveCheckInEvent",
+        "event_description": "Rachel proactively checks in: Just checking in to see how you are doing.",
+        "conversation": [
+            "Rachel: Hey Rohan! \ud83d\udc4b Welcome to Elyx \u2013 great choice to kick off with sleep\u2011hygiene. \u2705 Keep a consistent bedtime, avoid screens 30\u202fmin before sleep, and create a cool, dark environment. \ud83d\udecc If you notice lingering fatigue, let me know; we\u2019ll tweak your routine to boost recovery and falling asleep naturally. Keep up the focus, and feel free to ping me anytime!",
+            "Rohan Patel: Hey! Thanks for the quick plan\u2014will lock in a consistent bedtime and block screens 30\u202fmin before sleep. I\u2019ll set up a cool, dark room and log my sleep quality for the next week, and ping you if fatigue lingers. Cheers!"
+        ],
+        "participants": [
+            "Member",
+            "Rachel"
+        ]
+    },
+    {
+        "date": "2025-01-19",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \u2013 after taking my beta\u2011blocker at 8\u202fpm and melatonin at 10\u201111\u202fpm, my HRV sensor shows a sharp dip and cuff BP drops by ~20\u202fmmHg.  \n\nCan the wearable reliably flag an excessive nocturnal hypotension, and if so, what HRV or skin\u2011temperature thresholds should I monitor?  \n\nThanks!",
+            "Ruby: Hey, I\u2019ve forwarded your data to Dr. Warren\u2014he\u2019ll help fine\u2011tune the thresholds. <br><br>Most wearables flag nocturnal drop if HRV spikes >\u202f10\u202fms (or drops to <\u202f8\u202fms) *and* a skin\u2011temperature dip >\u202f1\u202f\u00b0C, indicating a possible hypotensive event. <br><br>Let me set a reminder for the next night\u2019s readings and then I\u2019ll ping Dr. Warren for a personalized alert rule.",
+            "Dr. Warren: Hi, based on the data you shared, a cuff\u2011confirmed drop of ~20\u202fmmHg at night paired with a sustained HRV fall below 20\u202fms SDNN (or RMSSD <10\u202fms) and a skin\u2011temperature dip past 33\u202f\u00b0C is the clinical red flag for excessive nocturnal hypotension. Track that pattern nightly; most wearables can flag \u226520\u202fmmHg systolic loss plus the HRV/temperature thresholds above, but confirm with a 24\u2011h ABPM for reliability. If you hit those numbers consistently, let me know so we can adjust your beta\u2011blocker dose or timing."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-20",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \ud83c\udf19, after taking my beta\u2011blocker at 8\u202fpm and melatonin at 10\u201311\u202fpm I\u2019m seeing a sharp HRV dip and about a 20\u202fmmHg drop in cuff\u2011based BP. Can the wearable reliably flag excessive nocturnal hypotension? If so, what exact HRV or skin\u2011temperature thresholds should I track? Thanks!",
+            "Ruby: Hey there \ud83c\udf19, I\u2019ve flagged your notes and will forward everything to Dr.\u202fWarren right away. In the meantime, most wearables flag potential nocturnal low\u2011pressure events when HRV dips under ~40\u202fms or when skin\u2011temperature drops by more than ~0.3\u202f\u00b0C compared to the night\u2011previous baseline \u2013 keep an eye on those thresholds and jot them in the app. I\u2019ve already referred you to Dr.\u202fWarren for a deeper review and tailored guidance.",
+            "Dr. Warren: Hi, Elyx\u2014your device can flag probable nocturnal hypotension if your systolic BP drops >20\u202fmmHg from baseline and your HRV shows a low\u2011frequency component <\u202f50\u202fms with a concomitant skin\u2011temperature decrease of >\u202f0.5\u202f\u00b0C. Keep the wearable on from 9\u202fpm to 6\u202fam; the algorithm will trigger an alert once those dual criteria are met. Monitoring these metrics will reliably distinguish genuine hypotensive episodes from transient stress or movement\u2011related noise."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-21",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \u2013 after taking my beta\u2011blocker at 8\u202fpm and melatonin at 10\u201111\u202fpm, my HRV drops sharply and cuff BP falls ~20\u202fmmHg at night. Can the wearable reliably flag excessive nocturnal hypotension, and if so what exact HRV or skin\u2011temperature thresholds should I monitor? Thanks!",
+            "Ruby: Hey! \ud83d\udc4b I\u2019ve looked into your wearables data \u2013 they can flag nocturnal drops, but the exact cut\u2011offs vary, so it\u2019s best to treat a nighttime HRV drop of \u2264\u202f20\u202fms (or a \u2265\u202f25\u202f% drop from your average)\u202fplus a skin\u2011temp dip below 32\u202f\u00b0C as red\u2011flag points. For now, log those values and we\u2019ll let Dr.\u202fWarren review them for personalized guideline thresholds. \ud83d\ude80 I\u2019ve already forwarded your case to Dr.\u202fWarren for a detailed evaluation.",
+            "Dr. Warren: Dr. Warren here. A high\u2011dose beta\u2011blocker paired with melatonin can blunt sympathetic tone, so a spike in nocturnal skin\u2011temperature >33\u202f\u00b0C and RMSSD (HRV) <20\u202fms usually flags a hypotensive dip, but confirm with a 24\u2011hour ambulatory BP monitor before changing therapy. Wearables are useful for trend detection, not diagnostic; flag any BP trough <90\u202fmmHg systolic or >20\u202fmmHg drop from daytime mean, and keep HRV below 20\u202fms as a red flag. Proceed with a formal ABPM and adjust your beta\u2011blocker dosage if these thresholds recur."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-22",
+        "event_type": "FullDiagnosticTestEvent",
+        "event_description": "First diagnostic test",
+        "conversation": [
+            "Rohan Patel  ",
+            "Hey Elyx \ud83d\udc4b\u2014just looking at my schedule: my first diagnostic test is set for Thursday, 9\u202fam. Will the wearable still track HRV/skin\u2011temperature during the test and flag any excessive nocturnal hypotension if I stay on beta\u2011blocker and melatonin? Any thresholds I should keep an eye on?  ",
+            "",
+            "Elyx Team (Ruby)  ",
+            "Hi Rohan! \u2705 Your test is confirmed for Thursday at 9\u202fam. The wearable will keep recording HRV and skin\u2011temperature throughout. We flag possible nocturnal hypotension when HRV < 20\u202fms (SDNN) or RMSSD < 10\u202fms AND a skin\u2011temp drop >\u202f1\u202f\u00b0C from your night\u2011previous baseline. We\u2019ll set a reminder to review the data the next morning.  ",
+            "",
+            "Rohan Patel  ",
+            "Thanks, Ruby! Will do. Catch you after the test. \ud83d\udc4d"
+        ],
+        "participants": []
+    },
+    {
+        "date": "2025-01-23",
+        "event_type": "GenerateTestReportEvent",
+        "event_description": "Generate report for first test",
+        "conversation": [],
+        "participants": []
+    },
+    {
+        "date": "2025-01-23",
+        "event_type": "ProactiveCheckInEvent",
+        "event_description": "Rachel proactively checks in: Just checking in to see how you are doing.",
+        "conversation": [
+            "Rachel: Hey Rohan, great you\u2019ve joined Elyx\u2014sleep hygiene is a solid foundation.  \nWe\u2019ll pair it with movement cues: gentle evening stretches, proper sleep\u2011posture cues, and a cool\u2011down cadence to cue your nervous system.  \nTrack your sleep logs in the app, and we\u2019ll tweak the routine to maximize rest and recovery. Ready to get your nights in top shape?",
+            "Rohan Patel: Hey, thanks for the plan. I\u2019ll start with the sleep hygiene routine, add the evening stretches, posture cues and cool\u2011down cadence, and log all the data in Elyx. We\u2019ll tweak it using the objective sleep metrics to maximize rest and recovery. Ready to get started."
+        ],
+        "participants": [
+            "Member",
+            "Rachel"
+        ]
+    },
+    {
+        "date": "2025-01-25",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Ruby \u2013 my diagnostic test is at 9\u202fam Thursday. If I stay on my beta\u2011blocker and melatonin, will the wearable still record HRV/skin\u2011temp during that morning and flag any excessive nocturnal hypotension? If so, what exact HRV or skin\u2011temperature thresholds should I track to be safe?",
+            "Ruby: Hi there! I\u2019ve noted your 9\u202fam diagnostic test on Thursday and confirmed that the wearable will record HRV and skin\u2011temp during that morning while you stay on your beta\u2011blocker and melatonin. It will automatically flag any excess nocturnal hypotension. For exact HRV or skin\u2011temperature thresholds that keep you safe, I\u2019ve forwarded your query to Dr. Warren, who will get back to you promptly.",
+            "Dr. Warren: Hi, the beta\u2011blocker and melatonin won\u2019t affect the wearable\u2019s sensing of pulse or skin\u2011temp, so you\u2019ll still capture the full HRV and temperature walk\u2011through in the morning. For safety, flag an SDNN or RMSSD <\u202f20\u202fms, or HRV ratio >\u202f0.75, as a red\u2011line for nocturnal hypotension risk. For skin\u2011temperature, keep it above 31\u202f\u00b0C (87.8\u202f\u00b0F) throughout the night; values dipping below that suggest a hypotensive episode. Stay on schedule and monitor those thresholds\u2014if they cross the limits, we\u2019ll adjust the plan."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-25",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \u2013 quick note: my diagnostic test is at 9\u202fam Thursday. If I keep my beta\u2011blocker at 8\u202fpm and melatonin at 10\u202fpm, will the wearable still capture HRV/skin\u2011temp through the test and trigger an alert for excessive nocturnal hypotension? Please confirm the exact HRV (\u2264\u202f20\u202fms SDNN or RMSSD \u2264\u202f10\u202fms) and skin\u2011temperature (<\u202f1\u202f\u00b0C drop from baseline or <\u202f31\u202f\u00b0C) thresholds I should monitor. Thanks!",
+            "Ruby: Hi! Your test at 9\u202fam won\u2019t interfere with the wearable\u2019s HRV or skin\u2011temperature sampling\u2014just a quick reminder 15\u202fmin beforehand will help me flag any drops.  \nThe cut\u2011offs you\u2019re keeping an eye on are: HRV SDNN\u202f\u2264\u202f20\u202fms or RMSSD\u202f\u2264\u202f10\u202fms, and skin\u2011temperature\u202f<\u202f1\u202f\u00b0C below baseline or\u202f<\u202f31\u202f\u00b0C.  \nI\u2019ve forwarded this to Dr.\u202fWarren for a final double\u2011check. Let me know if you\u2019d like a timer set!",
+            "Dr. Warren: Hey, the wearable continues to log HRV and skin\u2011temp throughout your 9\u202fam test\u2014no reset occurs, so you\u2019ll get uninterrupted data. For a nocturnal hypotension alert, monitor SDNN\u202f\u2264\u202f20\u202fms or RMSSD\u202f\u2264\u202f10\u202fms, and flag a temperature drop if skin temperature falls by \u2265\u202f1\u202f\u00b0C below baseline or goes below 31\u202f\u00b0C. No further action is needed if these thresholds aren\u2019t breached; the device will auto\u2011alert only if both criteria are met."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-25",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \u2013 my diagnostic test is at 9\u202fam Thursday. Will the wearable keep logging HRV and skin\u2011temperature during that morning and trigger a nocturnal hypotension alert if I stay on my beta\u2011blocker and melatonin?\u202fWhat exact HRV thresholds (\u2264\u202f20\u202fms SDNN / \u2264\u202f10\u202fms RMSSD) and skin\u2011temp thresholds (<\u202f31\u202f\u00b0C or a >\u202f1\u202f\u00b0C drop from baseline) should I monitor? Thanks!",
+            "Ruby: Hi [Name], I\u2019ve flagged your 9\u202fam Thursday test\u2014your wearable will keep logging HRV and skin\u2011temperature during that morning and will trigger a nocturnal hypotension alert if you stay on the beta\u2011blocker and melatonin. The thresholds to monitor are SDNN \u226420\u202fms or RMSSD \u226410\u202fms, and skin\u2011temperature <31\u202f\u00b0C or a drop of >1\u202f\u00b0C from baseline. I\u2019ve forwarded your question to Dr.\u202fWarren for a deeper review, and I\u2019ll let you know once I hear back. Let me know if you need anything else set up in the meantime.",
+            "Dr. Warren: Hi, the device will continue to record HRV and skin\u2011temperature continuously, including the morning of your 9\u202fam diagnostic test, and will generate a nocturnal hypotension alert if both adverse parameters are met while you remain on beta\u2011blocker and melatonin. Specifically, trigger occurs when SDNN \u2264\u202f20\u202fms or RMSSD \u2264\u202f10\u202fms and skin\u2011temperature <\u202f31\u202f\u00b0C or a drop >\u202f1\u202f\u00b0C from your established baseline. Please review your baseline measures in the app and confirm the alert threshold settings before the test; we\u2019ll monitor your overnight data and notify you promptly."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-26",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx \u2013 my SDNN is falling below 20\u202fms on a few nights, but my baseline HRV is a bit variable.  Could we set a personalized baseline using the last 7 nights and adjust the alert to trigger at, say, SDNN \u2264\u202f15\u202fms or RMSSD \u2264\u202f8\u202fms, while keeping skin\u2011temp >\u202f31\u202f\u00b0C?  Please confirm the exact thresholds you recommend for beta\u2011blocker users so I can be proactive.",
+            "Ruby: Hey! I\u2019ve set a personalized baseline using your last 7 nights and adjusted the alert to trigger at SDNN \u2264 15\u202fms or RMSSD \u2264 8\u202fms while keeping skin\u2011temp above 31\u202f\u00b0C\u2014these are the standard thresholds for beta\u2011blocker users. If that looks good, we\u2019re all set; otherwise, just let me know. I\u2019ve forwarded the details to Dr.\u202fWarren for confirmation.",
+            "Dr. Warren: Dr. Warren here.\u202fFor beta\u2011blocker users I confirm the alert to trigger when SDNN\u202f\u2264\u202f15\u202fms or RMSSD\u202f\u2264\u202f8\u202fms, while maintaining skin\u2011temperature\u202f>\u202f31\u202f\u00b0C; use the past 7 nights to set a personalized baseline.\u202fThis threshold preserves sensitivity to clinically significant HRV drops while avoiding false positives from normal day\u2011to\u2011day variability. Let me know once the parameters are uploaded so we can monitor for timely adjustment."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-28",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx, I\u2019ll be on a night\u2011flight to London tomorrow. Will the wearable automatically adjust the HRV/skin\u2011temperature thresholds for the time\u2011zone shift, or should I set a custom baseline for that night? Thanks!",
+            "Ruby: Hi, your night\u2011flight to London is noted! \u2708\ufe0f The wearable will automatically adjust HRV/skin\u2011temperature thresholds for the time\u2011zone shift, but if you\u2019d like a more tightly\u2011tuned baseline tonight, just set a custom one in the app before you land. I\u2019ve pinged Advik for a quick final tweak\u2014he\u2019ll ensure everything\u2019s perfect. I have referred to the given expert.",
+            "Advik: Hey! The Whoop/\u200bOura algorithm automatically shifts HRV and skin\u2011temp baselines to match your new circadian window, so you\u2019ll see updated thresholds after you land. If you want the most accurate comparison for that overnight flight, set a brief 30\u2011minute custom baseline during the flight\u2014just toggle \u201ctime\u2011zone override\u201d in the app. Otherwise the auto\u2011adjust will handle it without manual tweaking. Safe travels!"
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-29",
+        "event_type": "TravelEvent",
+        "event_description": "Travel to Business Trip",
+        "conversation": [
+            "Rohan Patel: Hi Rohan, I see you're on a business trip to Business Trip. Hope you're settling in well. Let me know if you need any adjustments to your health plan while you're away.",
+            "Ruby: Hey Rohan, thanks for touching base! I\u2019m glad you\u2019re settling in at Business Trip\u2014just let me know if you need any tweaks to your health plan and I\u2019ll sort it out for you. I\u2019ve already referred you to Advik, who will handle the adjustments and make sure everything\u2019s covered. Let me know if there\u2019s anything else you need!",
+            "Advik: Hey Rohan, I\u2019ve linked the devices and HRV dipped while my sleep latency has been on the long\u2011side\u2014likely jet\u2011lag plus work stress. If you could bump my recovery target by 20% for the next 48\u202fh and drop intensity from 8/10 to 6/10, I should see my recovery index back up quicker. Let me know if you\u2019d prefer a heavier nightly wind\u2011down routine instead."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    },
+    {
+        "date": "2025-01-29",
+        "event_type": "MemberInitiatedMessageEvent",
+        "event_description": "Member initiated message: I have a question about my plan.",
+        "conversation": [
+            "Rohan Patel: Hi Elyx, I\u2019m heading to London tomorrow and will be on an overnight flight. Will the beta\u2011blocker and melatonin affect the wearable\u2019s HRV and skin\u2011temperature readings during the flight, and do I need to tweak the alert thresholds for jet\u2011lag\u2011induced circadian shifts? Thanks for confirming.",
+            "Ruby: Hi! I\u2019m glad you\u2019re heading out tomorrow\u2014flying overnight can be a bit tricky. Beta\u2011blockers may slightly lower your HRV signal, and melatonin can reduce skin\u2011temperature readings, but our algorithms already compensate for those medications, so you don\u2019t need to adjust jet\u2011lag thresholds right now. I\u2019ve forwarded your question to Dr.\u202fWarren for a deeper dive and he\u2019ll get back to you soon.",
+            "Dr. Warren: Beta\u2011blocker therapy will lower HRV amplitude by ~20\u201130\u202f% and melatonin will add a subtle, short\u2011lived HRV modulation, but neither drug alters skin\u2011temperature patterns. Given this, apply a \u00b110\u202f% buffer to the HRV alert threshold during jet\u2011lag transitions; the skin\u2011temperature thresholds remain unchanged. The wearable will still capture circadian shifts accurately\u2014just monitor the data stream throughout the flight."
+        ],
+        "participants": [
+            "Member",
+            "Concierge"
+        ]
+    }
+]

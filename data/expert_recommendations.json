@@ -1,0 +1,336 @@
+[
+    {
+        "timestamp": "2025-08-16T06:10:57.698365",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "dietary_recommendations": [
+                "Within the first hour of arrival, drink 500\u202fmL of isotonic fluid, then repeat 200\u202fmL every 30\u202fminutes for the next two hours."
+            ],
+            "supplements": [
+                "Take a 10\u202fmg/kg caffeine dose during the trip."
+            ],
+            "workouts": [
+                "Take brief 5\u2011minute standing or torso\u2011stretch breaks every 45\u202fminutes."
+            ],
+            "trackers": [
+                "Use actigraphy to guide adjustments of light exposure and sleep schedule if fatigue persists."
+            ],
+            "lifestyle_recommendations": [
+                "Apply the hydration and micro\u2011break protocol consistently on each leg of your trip."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:47:53.375702",
+        "expert_name": "Carla",
+        "recommendations": {
+            "supplements": [
+                "5\u202fg potassium (e.g., half a banana)",
+                "pinch of sea salt",
+                "20\u202fg whey or plant\u2011based protein"
+            ],
+            "dietary_recommendations": [
+                "Drink 500\u202fml of water 4\u20136\u202fh before takeoff, plus the sea salt and potassium.",
+                "Add 30\u202fg of complex carbohydrates (oatmeal or rice).",
+                "During flight, hydrate every 2\u20133\u202fh.",
+                "Within 30\u202fmin of landing, break the fast with a balanced snack that includes protein, carbohydrate, and fat.",
+                "Eat protein+carb at the new breakfast and lunch according to the new time zone."
+            ],
+            "lifestyle_recommendations": [
+                "Align macro windows to the new time zone (protein+carb at breakfast and lunch).",
+                "Keep a small carb snack before bed to reset the circadian rhythm."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:48:07.983941",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "lifestyle_recommendations": [
+                "Phase\u2011advance light exposure: 30\u201360\u202fmin of full\u2011spectrum light (\u226510\u202f000 lux) between 6\u20138\u202fam local time upon arrival",
+                "Avoid blue light 2\u20133\u202fh before bedtime; use blue\u2011blocking glasses if needed",
+                "Gradually shift bedtime earlier by 1\u20132\u202fh each day",
+                "Enforce a strict no\u2011caffeine policy after 2200\u202fh",
+                "Implement a 10\u2011minute pre\u2011sleep wind\u2011down routine in dim light",
+                "Do not use overnight melatonin during the circadian shift"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:48:37.741091",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "lifestyle_recommendations": [
+                "Incorporate >10,000 lux dawn\u2011simulated light exposure for the first 30 minutes after arrival.",
+                "Block blue light more than 2 hours before target bedtime using amber filters or blue\u2011blocking glasses.",
+                "Avoid caffeine after 13:00; take a single 100\u2011mg dose 4 hours before the new bedtime to enhance sleep onset."
+            ],
+            "supplements": [
+                "Take a 100\u2011mg caffeine dose 4 hours before bedtime."
+            ],
+            "dietary_recommendations": [
+                "Consume a protein\u2011rich breakfast by 08:00.",
+                "Have a light lunch at 12:30.",
+                "Have a low\u2011glycogenic snack at 17:00 to reinforce circadian cue for earlier sleep."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:48:56.549075",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "supplements": [
+                {
+                    "drug": "melatonin",
+                    "dose": "5 mg",
+                    "timing": "at sunset (18:00)"
+                },
+                {
+                    "drug": "magnesium glycinate",
+                    "dose": "300 mg",
+                    "timing": "30 minutes before bed"
+                }
+            ],
+            "dietary_recommendations": [
+                {
+                    "item": "caffeine",
+                    "limit": "<20 mg by 9:00 AM",
+                    "boost_option": "take 40 mg immediately after waking"
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:49:15.401781",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "dietary_recommendations": [
+                "Shift protein intake to the first half of the day."
+            ],
+            "supplements": [
+                "Take 200\u202fmg of L\u2011carnitine (or 5\u2011HTP) at 8\u202fpm.",
+                "Take 400\u202fmg of melatonin 30\u202fminutes before a 10\u202fpm bedtime."
+            ],
+            "lifestyle_recommendations": [
+                "Keep caffeine strictly within the first 4\u202fhours after awakening (\u226410\u202fam).",
+                "Limit post\u20116\u202fpm light exposure and use a blue\u2011blocking lamp if needed."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:50:05.602040",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "supplements": [
+                "caffeine 10\u202fmg",
+                "protein shake 20\u202fg"
+            ],
+            "dietary_recommendations": [
+                "Split the protein shake into two 10\u2011g servings",
+                "Replace the protein shake with a low\u2011glycemic carbohydrate snack"
+            ],
+            "lifestyle_recommendations": [
+                "Delay caffeine consumption by 30\u201360\u202fminutes after the protein shake"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:50:26.381389",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "dietary_recommendations": [
+                "Split 20\u202fg of protein into two 10\u202fg servings: 10\u202fg at 8:45\u202fam and the second 10\u202fg at 9:15\u202fam.",
+                "Take 30\u202fmg caffeine immediately after the first 10\u202fg of protein; if avoiding caffeine, replace it with 15\u202fg of low\u2011GI oats at 8:45\u202fam.",
+                "Maintain this split to preserve >85\u202f% of baseline HRV while providing alertness."
+            ],
+            "lifestyle_recommendations": [
+                "Space the protein servings 30\u202fminutes apart to keep sympathetic tone lower and preserve HRV."
+            ],
+            "supplements": [
+                "30\u202fmg caffeine (if caffeine is not avoided)."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:51:18.994534",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "supplements": [
+                "Timed low\u2011dose melatonin (0.5\u20111\u202fmg) taken 30\u201345\u202fmin before bedtime"
+            ],
+            "lifestyle_recommendations": [
+                "30\u2011min guided progressive muscle relaxation or controlled breathing right before sleep",
+                "Avoid blue\u2011light exposure for 1\u20132\u202fh before bed (use a blue\u2011light filter or night mode), then dim lights to cue melatonin production"
+            ],
+            "trackers": [
+                "Set the wearable\u2019s 'sleep\u2011ready' reminder to trigger when HRV, skin\u2011temperature, and ambient light data indicate bedtime readiness"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:51:35.180830",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "supplements": [
+                {
+                    "name": "melatonin",
+                    "dose": "0.5\u20131 mg",
+                    "timing": "30\u201360 minutes before sleep",
+                    "start_at": "0.5 mg",
+                    "monitor": "overnight blood pressure readings",
+                    "adjust_if": "hypotension or excessive drowsiness",
+                    "taper_to": "0.25 mg or discontinue"
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:51:52.528532",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "supplements": [
+                "Take melatonin nightly between 10\u202fpm and 11\u202fpm, ensuring at least a two\u2011hour buffer after your 8\u202fpm beta\u2011blocker dose to mitigate additive hypotension.",
+                "If you notice an exaggerated nocturnal blood\u2011pressure dip (large drop in HRV or shallow skin\u2011temperature rise within the first hour after the beta\u2011blocker), consider adjusting the melatonin dose."
+            ],
+            "trackers": [
+                "Use a watch that monitors heart\u2011rate variability (HRV) and skin temperature to detect a large drop in HRV or a shallow rise in skin temperature during the first hour after taking the beta\u2011blocker."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:52:10.192134",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "medicines": [
+                "Shift beta\u2011blocker administration to 6\u202fpm",
+                "Reduce melatonin dosage to 5\u202fmg"
+            ],
+            "trackers": [
+                "Monitor HRV and cuff\u2011based nighttime SBP next night to confirm the change"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:52:32.440445",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "trackers": [
+                "Track that pattern nightly; most wearables can flag \u226520\u202fmmHg systolic loss plus the HRV/temperature thresholds above, but confirm with a 24\u2011h ABPM for reliability."
+            ],
+            "medicines": [
+                "Adjust your beta\u2011blocker dose or timing."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:52:48.250548",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "trackers": [
+                "Keep the wearable device on from 9\u202fpm to 6\u202fam to monitor systolic BP, low\u2011frequency HRV component, and skin temperature for nocturnal hypotension detection."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:53:09.220723",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "medicines": [
+                "Pair a high\u2011dose beta\u2011blocker with melatonin to blunt sympathetic tone",
+                "Adjust the beta\u2011blocker dose if nighttime skin temperature >33\u202f\u00b0C and RMSSD <20\u202fms are observed on 24\u2011hour ambulatory blood\u2011pressure monitoring"
+            ],
+            "trackers": [
+                "Perform a 24\u2011hour ambulatory blood\u2011pressure monitor before changing therapy",
+                "Use wearables for trend detection; flag any BP trough <90\u202fmmHg systolic or >20\u202fmmHg drop from daytime mean, and flag HRV values <20\u202fms as a red flag"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:53:54.535342",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "trackers": [
+                "Flag SDNN or RMSSD < 20\u202fms, or HRV ratio > 0.75 as a red\u2011line for nocturnal hypotension risk.",
+                "Monitor skin temperature: keep it above 31\u202f\u00b0C (87.8\u202f\u00b0F) throughout the night."
+            ],
+            "lifestyle_recommendations": [
+                "Stay on schedule and monitor those thresholds; if limits are crossed, adjust the plan."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:54:16.367480",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "trackers": [
+                "Use a wearable to continuously log HRV and skin temperature during the 9\u202fam test\u2014no reset is needed for uninterrupted data.",
+                "Monitor nocturnal hypotension thresholds: SDNN \u2264\u202f20\u202fms or RMSSD \u2264\u202f10\u202fms; flag a temperature drop if skin temperature falls by \u2265\u202f1\u202f\u00b0C below baseline or goes below 31\u202f\u00b0C.",
+                "No action is required if these thresholds are not breached; the device will auto\u2011alert only when both criteria are met."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:54:33.996005",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "trackers": [
+                "Review baseline measures in the app and confirm alert threshold settings before the test."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:55:04.994110",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "trackers": [
+                "Set alert triggers: when SDNN \u2264 15\u202fms or RMSSD \u2264 8\u202fms.",
+                "Use the past 7 nights to establish a personalized HRV baseline."
+            ],
+            "lifestyle_recommendations": [
+                "Maintain skin temperature above 31\u202f\u00b0C during monitoring periods."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:55:20.310357",
+        "expert_name": "Advik",
+        "recommendations": {
+            "trackers": [
+                "Set a brief 30\u2011minute custom baseline during the flight by toggling the \"time\u2011zone override\" option in the tracker app."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:55:32.925808",
+        "expert_name": "Advik",
+        "recommendations": {
+            "trackers": [
+                "Increase recovery target by 20% for the next 48 hours."
+            ],
+            "workouts": [
+                "Reduce training intensity from 8/10 to 6/10."
+            ],
+            "lifestyle_recommendations": [
+                "Implement a heavier nightly wind\u2011down routine."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-16T06:55:53.453454",
+        "expert_name": "Dr. Warren",
+        "recommendations": {
+            "medicines": [
+                "Beta\u2011blocker therapy"
+            ],
+            "supplements": [
+                "Melatonin"
+            ],
+            "trackers": [
+                "Monitor the wearable data stream throughout the flight"
+            ],
+            "lifestyle_recommendations": [
+                "Apply a \u00b110\u202f% buffer to the HRV alert threshold during jet\u2011lag transitions"
+            ]
+        }
+    }
+]
