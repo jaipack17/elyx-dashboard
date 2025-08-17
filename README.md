@@ -40,9 +40,9 @@ The simulation generates several output files:
 *   **`notepad.json`**: A JSON file containing a list of medicines, treatments, and tests extracted from the expert's replies.
 
 
-**NOTE**: The simulation requires an API Key from together.ai to access the models, also it would take a lot of time to run since it has to simulation 8 months of conversation which contains thousands of messages.
-
 ## Prerequisites
+
+**NOTE**: The simulation requires an API Key from together.ai to access the models, also it would take a lot of time to run since it has to simulation 8 months of conversation which contains thousands of messages.
 
 Before running the simulation, ensure you have the following prerequisites installed:
 
