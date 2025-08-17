@@ -1,0 +1,399 @@
+{
+    "test_report": [
+        {
+            "panel_name": "General Health Assessment",
+            "tests": [
+                {
+                    "test_name": "Blood Pressure",
+                    "result": "128/84 mmHg"
+                },
+                {
+                    "test_name": "Heart Rate",
+                    "result": "72 bpm"
+                },
+                {
+                    "test_name": "Electrocardiogram (ECG)",
+                    "result": "Normal sinus rhythm"
+                },
+                {
+                    "test_name": "Chest X\u2011ray",
+                    "result": "Normal cardiac silhouette, no infiltrates"
+                },
+                {
+                    "test_name": "Lipid Panel",
+                    "result": "Total Cholesterol: 190 mg/dL, LDL: 120 mg/dL, HDL: 55 mg/dL, Triglycerides: 150 mg/dL"
+                },
+                {
+                    "test_name": "Fasting Blood Glucose",
+                    "result": "90 mg/dL"
+                },
+                {
+                    "test_name": "Hemoglobin A1c",
+                    "result": "5.4%"
+                },
+                {
+                    "test_name": "Complete Blood Count (CBC)",
+                    "result": "Hemoglobin: 14.2 g/dL, Hematocrit: 42%, WBC: 6.5 x10\u2079/L, Platelets: 250 x10\u2079/L"
+                },
+                {
+                    "test_name": "Renal Function",
+                    "result": "Creatinine: 0.9 mg/dL, BUN: 14 mg/dL, eGFR: 98 mL/min/1.73m\u00b2"
+                },
+                {
+                    "test_name": "Electrolytes",
+                    "result": "Na: 140 mEq/L, K: 4.2 mEq/L, Cl: 100 mEq/L, HCO\u2083: 24 mEq/L"
+                },
+                {
+                    "test_name": "INR/PT",
+                    "result": "INR: 1.0"
+                }
+            ]
+        },
+        {
+            "panel_name": "Cancer Screening",
+            "tests": [
+                {
+                    "test_name": "Colonoscopy",
+                    "result": "No polyps detected; normal mucosa observed. A 3\u202fmm tubular adenoma was removed and sent for pathology."
+                },
+                {
+                    "test_name": "Mammogram",
+                    "result": "Normal; no masses or architectural distortion noted."
+                },
+                {
+                    "test_name": "Pap Smear",
+                    "result": "Negative for intraepithelial lesion or malignancy; H2PV DNA negative."
+                },
+                {
+                    "test_name": "PSA",
+                    "result": "1.2\u202fng/mL (within normal range)."
+                },
+                {
+                    "test_name": "Skin Examination",
+                    "result": "No suspicious pigmented lesions; all moles benign."
+                },
+                {
+                    "test_name": "Low-Dose CT Chest",
+                    "result": "No pulmonary nodules >10\u202fmm; mild centrilobular emphysema noted, no malignancy."
+                }
+            ]
+        },
+        {
+            "panel_name": "Advanced Cardiovascular Assessment",
+            "tests": [
+                {
+                    "test_name": "High-sensitivity Troponin T",
+                    "result": "0.004 ng/mL (normal <0.01 ng/mL)"
+                },
+                {
+                    "test_name": "NT-proBNP",
+                    "result": "210 pg/mL (within normal for age and mild post\u2011exercise rise)"
+                },
+                {
+                    "test_name": "Echocardiogram \u2013 Left Ventricular Ejection Fraction",
+                    "result": "57%"
+                },
+                {
+                    "test_name": "Carotid Intima\u2011Media Thickness (IMT)",
+                    "result": "0.62 mm"
+                },
+                {
+                    "test_name": "Ankle\u2011Brachial Index (ABI)",
+                    "result": "1.02"
+                },
+                {
+                    "test_name": "Coronary Calcium Score (CACS)",
+                    "result": "8 (Low)"
+                },
+                {
+                    "test_name": "Ambulatory 24\u2011h Heart Rate Variability (HRV)",
+                    "result": "SDNN 45 ms (normal range)"
+                },
+                {
+                    "test_name": "Coronary Doppler Ultrasound \u2013 Peak Systolic Velocity",
+                    "result": "70 cm/s (normal)"
+                }
+            ]
+        },
+        {
+            "panel_name": "Overall health and fitness",
+            "tests": [
+                {
+                    "test_name": "Body Mass Index",
+                    "result": "25.3 kg/m\u00b2"
+                },
+                {
+                    "test_name": "Body Fat Percentage",
+                    "result": "18%"
+                },
+                {
+                    "test_name": "Resting Metabolic Rate",
+                    "result": "1700 kcal/day"
+                },
+                {
+                    "test_name": "VO\u2082 Max Estimate",
+                    "result": "35 mL/kg/min"
+                },
+                {
+                    "test_name": "Functional Movement Screen",
+                    "result": "14/21"
+                },
+                {
+                    "test_name": "Grip Strength \u2013 Dominant",
+                    "result": "42 kg"
+                },
+                {
+                    "test_name": "Grip Strength \u2013 Non-Dominant",
+                    "result": "40 kg"
+                },
+                {
+                    "test_name": "Balance Assessment \u2013 Tandem Walk",
+                    "result": "12 steps"
+                },
+                {
+                    "test_name": "Flexibility Test \u2013 Sit-and-Reach",
+                    "result": "35 cm"
+                },
+                {
+                    "test_name": "Sleep Quality Score",
+                    "result": "8/10"
+                },
+                {
+                    "test_name": "Sleep Duration",
+                    "result": "7.2 hrs/night"
+                }
+            ]
+        },
+        {
+            "panel_name": "Genetic Testing",
+            "tests": [
+                {
+                    "test_name": "APOE Genotype",
+                    "result": "\u03b53/\u03b54"
+                },
+                {
+                    "test_name": "CYP2C9 Genotype",
+                    "result": "*1/*3"
+                },
+                {
+                    "test_name": "CYP2C19 Genotype",
+                    "result": "*1/*2"
+                },
+                {
+                    "test_name": "Hypertension Risk SNP Panel",
+                    "result": "Haplotype A present; odds ratio 1.5"
+                },
+                {
+                    "test_name": "eNOS (NOS3) 894G>T Polymorphism",
+                    "result": "G/T heterozygous"
+                },
+                {
+                    "test_name": "LPA Gene KIV-2 Copy Number",
+                    "result": "54 copies (elevated risk for atherosclerosis)"
+                },
+                {
+                    "test_name": "MTHFR C677T Polymorphism",
+                    "result": "C/T heterozygous"
+                }
+            ]
+        },
+        {
+            "panel_name": "Body Composition Analysis",
+            "tests": [
+                {
+                    "test_name": "Waist Circumference",
+                    "result": "92 cm"
+                },
+                {
+                    "test_name": "Hip Circumference",
+                    "result": "115 cm"
+                },
+                {
+                    "test_name": "Waist-to-Hip Ratio",
+                    "result": "0.80"
+                },
+                {
+                    "test_name": "Skinfold Measurement \u2013 Triceps",
+                    "result": "8 mm"
+                },
+                {
+                    "test_name": "Lean Body Mass",
+                    "result": "52 kg"
+                },
+                {
+                    "test_name": "Total Body Water",
+                    "result": "47 kg"
+                },
+                {
+                    "test_name": "Bone Mineral Density (T-score, Spine)",
+                    "result": "+1.2"
+                }
+            ]
+        },
+        {
+            "panel_name": "Hormone Profiling",
+            "tests": [
+                {
+                    "test_name": "Total Testosterone",
+                    "result": "550 ng/dL"
+                },
+                {
+                    "test_name": "Free Testosterone",
+                    "result": "20 ng/dL"
+                },
+                {
+                    "test_name": "Estradiol",
+                    "result": "20 pg/mL"
+                },
+                {
+                    "test_name": "Luteinizing Hormone (LH)",
+                    "result": "5 mIU/mL"
+                },
+                {
+                    "test_name": "Follicle-stimulating Hormone (FSH)",
+                    "result": "6 mIU/mL"
+                },
+                {
+                    "test_name": "Prolactin",
+                    "result": "10 ng/mL"
+                },
+                {
+                    "test_name": "Morning Cortisol (08:00)",
+                    "result": "18 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Dehydroepiandrosterone Sulfate (DHEA\u2011S)",
+                    "result": "300 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Thyroid Stimulating Hormone (TSH)",
+                    "result": "2.0 \u00b5IU/mL"
+                },
+                {
+                    "test_name": "Free T4",
+                    "result": "1.1 ng/dL"
+                },
+                {
+                    "test_name": "Vitamin D (25\u2011OH)",
+                    "result": "30 ng/mL"
+                },
+                {
+                    "test_name": "Insulin-like Growth Factor\u20111 (IGF\u20111)",
+                    "result": "250 ng/mL"
+                }
+            ]
+        },
+        {
+            "panel_name": "Nutritional Assessment",
+            "tests": [
+                {
+                    "test_name": "Serum Albumin",
+                    "result": "4.2 g/dL"
+                },
+                {
+                    "test_name": "Serum Prealbumin",
+                    "result": "20 mg/dL"
+                },
+                {
+                    "test_name": "Total Protein",
+                    "result": "7.2 g/dL"
+                },
+                {
+                    "test_name": "Serum Ferritin",
+                    "result": "120 ng/mL"
+                },
+                {
+                    "test_name": "Serum Iron",
+                    "result": "85 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Total Iron Binding Capacity (TIBC)",
+                    "result": "360 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Serum Vitamin B12",
+                    "result": "650 pg/mL"
+                },
+                {
+                    "test_name": "Serum Folate",
+                    "result": "20 ng/mL"
+                },
+                {
+                    "test_name": "Omega-3 Index",
+                    "result": "6.5%"
+                },
+                {
+                    "test_name": "Serum Zinc",
+                    "result": "70 \u00b5g/dL"
+                }
+            ]
+        },
+        {
+            "panel_name": "Brain Health Assessment",
+            "tests": [
+                {
+                    "test_name": "Montreal Cognitive Assessment (MoCA)",
+                    "result": "27/30 (normal)"
+                },
+                {
+                    "test_name": "Digit Span",
+                    "result": "Forward: 7 cards, Backward: 5 cards"
+                },
+                {
+                    "test_name": "Trail Making Test",
+                    "result": "Part A: 35 sec, Part B: 85 sec"
+                },
+                {
+                    "test_name": "Brain MRI (Structural)",
+                    "result": "No acute lesions; mild age\u2011related periventricular white matter hyperintensities"
+                },
+                {
+                    "test_name": "Routine EEG",
+                    "result": "Normal background rhythm, no epileptiform discharges"
+                },
+                {
+                    "test_name": "Serum Brain\u2011Derived Neurotrophic Factor (BDNF)",
+                    "result": "25.8 ng/mL (within normal 15\u201345 ng/mL)"
+                },
+                {
+                    "test_name": "Serum Total Homocysteine",
+                    "result": "8.0 \u00b5mol/L (within normal 5\u201312 \u00b5mol/L)"
+                }
+            ]
+        },
+        {
+            "panel_name": "Skin Analysis",
+            "tests": [
+                {
+                    "test_name": "Transepidermal Water Loss (TEWL)",
+                    "result": "6.5 g/m\u00b2/h"
+                },
+                {
+                    "test_name": "Sebum Production (Frontal Forehead)",
+                    "result": "8 \u00b5L/30 sec"
+                },
+                {
+                    "test_name": "Skin Elasticity (Young's Modulus)",
+                    "result": "45 kPa"
+                },
+                {
+                    "test_name": "Skin Hydration (Corneometer Units)",
+                    "result": "30 AU"
+                },
+                {
+                    "test_name": "Erythema Index",
+                    "result": "0.1"
+                }
+            ]
+        },
+        {
+            "panel_name": "Extended care",
+            "tests": [
+                {
+                    "test_name": "Error generating content",
+                    "result": "Unterminated string starting at: line 8 column 44 (char 425)"
+                }
+            ]
+        }
+    ]
+}

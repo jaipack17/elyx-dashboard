@@ -1,0 +1,431 @@
+{
+    "test_report": [
+        {
+            "panel_name": "General Health Assessment",
+            "tests": [
+                {
+                    "test_name": "Blood Pressure",
+                    "result": "165/107 mmHg"
+                },
+                {
+                    "test_name": "Heart Rate",
+                    "result": "82 bpm"
+                },
+                {
+                    "test_name": "Blood Glucose (Fasting)",
+                    "result": "95 mg/dL"
+                },
+                {
+                    "test_name": "HbA1c",
+                    "result": "5.7%"
+                },
+                {
+                    "test_name": "LDL Cholesterol",
+                    "result": "125 mg/dL"
+                },
+                {
+                    "test_name": "HDL Cholesterol",
+                    "result": "55 mg/dL"
+                },
+                {
+                    "test_name": "Triglycerides",
+                    "result": "150 mg/dL"
+                },
+                {
+                    "test_name": "Vitamin D",
+                    "result": "30 ng/mL"
+                },
+                {
+                    "test_name": "Hemoglobin",
+                    "result": "13.8 g/dL"
+                },
+                {
+                    "test_name": "WBC Count",
+                    "result": "6.0 \u00d710^3/\u00b5L"
+                },
+                {
+                    "test_name": "Platelet Count",
+                    "result": "250 \u00d710^3/\u00b5L"
+                },
+                {
+                    "test_name": "Serum Creatinine",
+                    "result": "0.9 mg/dL"
+                },
+                {
+                    "test_name": "eGFR",
+                    "result": "95 mL/min/1.73 m\u00b2"
+                }
+            ]
+        },
+        {
+            "panel_name": "Cancer Screening",
+            "tests": [
+                {
+                    "test_name": "Colonoscopy",
+                    "result": "0 polyps; colonic mucosa appears normal"
+                },
+                {
+                    "test_name": "PSA (Prostate Specific Antigen)",
+                    "result": "1.3 ng/mL (within normal range) "
+                },
+                {
+                    "test_name": "Digital Rectal Exam",
+                    "result": "Prostate normal size; no nodules or masses seen"
+                },
+                {
+                    "test_name": "Skin Examination",
+                    "result": "No suspicious lesions or new moles noted"
+                },
+                {
+                    "test_name": "Low\u2011Dose Chest CT (Lung Cancer Screening)",
+                    "result": "No pulmonary nodules; lung fields unremarkable"
+                },
+                {
+                    "test_name": "Upper GI Endoscopy",
+                    "result": "Mucosa appears normal; no ulcers or gastritis observed"
+                },
+                {
+                    "test_name": "Breast Ultrasound",
+                    "result": "Not performed (male patient)"
+                },
+                {
+                    "test_name": "Pap Smear",
+                    "result": "Not applicable (male patient)"
+                }
+            ]
+        },
+        {
+            "panel_name": "Advanced Cardiovascular Assessment",
+            "tests": [
+                {
+                    "test_name": "Echocardiogram (LV function)",
+                    "result": "Ejection fraction 68% (normal range 55\u201170%)"
+                },
+                {
+                    "test_name": "Carotid Intima\u2011Media Thickness (CIMT)",
+                    "result": "0.72 mm (normal <0.8 mm)"
+                },
+                {
+                    "test_name": "Ankle\u2011Brachial Index (ABI)",
+                    "result": "1.04 (normal 1.0\u20131.4)"
+                },
+                {
+                    "test_name": "Coronary Artery Calcium Score",
+                    "result": "15 (minimal calcification)"
+                },
+                {
+                    "test_name": "24\u2011hour Holter ECG",
+                    "result": "Normal sinus rhythm, no arrhythmias; mean HR 58\u202fbpm, HRV high\u2011normal"
+                },
+                {
+                    "test_name": "Pulse Wave Velocity (PWV)",
+                    "result": "8.2\u202fm/s (normal <10\u202fm/s)"
+                },
+                {
+                    "test_name": "Cardiac Biomarker Panel",
+                    "result": "Troponin\u00a0T 0.01\u202fng/mL (\u22640.01\u202fng/mL), NT\u2011proBNP 45\u202fpg/mL (\u2264125\u202fpg/mL)"
+                },
+                {
+                    "test_name": "Inflammatory Markers",
+                    "result": "High\u2011sensitivity CRP 1.2\u202fmg/L (normal <3\u202fmg/L)"
+                }
+            ]
+        },
+        {
+            "panel_name": "Overall health and fitness",
+            "tests": [
+                {
+                    "test_name": "Error generating content",
+                    "result": "Expecting value: line 1 column 1 (char 0)"
+                }
+            ]
+        },
+        {
+            "panel_name": "Genetic Testing",
+            "tests": [
+                {
+                    "test_name": "APOE Genotype",
+                    "result": "E3/E3"
+                },
+                {
+                    "test_name": "HLA-B27 Status",
+                    "result": "Negative"
+                },
+                {
+                    "test_name": "CFTR Mutation Analysis",
+                    "result": "Heterozygous F508del carrier"
+                },
+                {
+                    "test_name": "MTHFR C677T Polymorphism",
+                    "result": "CT (heterozygous) \u2013 mild hyperhomocysteinemia risk"
+                },
+                {
+                    "test_name": "LMNA Gene Mutation Screening",
+                    "result": "No pathogenic variant detected"
+                }
+            ]
+        },
+        {
+            "panel_name": "Body Composition Analysis",
+            "tests": [
+                {
+                    "test_name": "Body Fat Percentage",
+                    "result": "15.3%"
+                },
+                {
+                    "test_name": "Lean Body Mass",
+                    "result": "68 kg"
+                },
+                {
+                    "test_name": "Skeletal Muscle Mass",
+                    "result": "45 kg"
+                },
+                {
+                    "test_name": "Total Body Water",
+                    "result": "48%"
+                },
+                {
+                    "test_name": "Bone Mineral Density (T-score)",
+                    "result": "0.7 (normal)"
+                },
+                {
+                    "test_name": "Basal Metabolic Rate",
+                    "result": "1,800 kcal/day"
+                },
+                {
+                    "test_name": "Body Mass Index",
+                    "result": "22.5 kg/m\u00b2"
+                },
+                {
+                    "test_name": "Waist Circumference",
+                    "result": "80 cm"
+                },
+                {
+                    "test_name": "Hip Circumference",
+                    "result": "94 cm"
+                },
+                {
+                    "test_name": "Neck Circumference",
+                    "result": "38 cm"
+                }
+            ]
+        },
+        {
+            "panel_name": "Hormone Profiling",
+            "tests": [
+                {
+                    "test_name": "TSH",
+                    "result": "1.8 mIU/L"
+                },
+                {
+                    "test_name": "Free T4",
+                    "result": "1.2 ng/dL"
+                },
+                {
+                    "test_name": "Cortisol (morning)",
+                    "result": "18 \u00b5g/dL"
+                },
+                {
+                    "test_name": "DHEA\u2011S",
+                    "result": "350 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Testosterone (total)",
+                    "result": "650 ng/dL"
+                },
+                {
+                    "test_name": "Estradiol",
+                    "result": "18 pg/mL"
+                },
+                {
+                    "test_name": "LH",
+                    "result": "6 IU/L"
+                },
+                {
+                    "test_name": "FSH",
+                    "result": "8 IU/L"
+                },
+                {
+                    "test_name": "Progesterone",
+                    "result": "0.3 ng/mL"
+                },
+                {
+                    "test_name": "Prolactin",
+                    "result": "12 ng/mL"
+                },
+                {
+                    "test_name": "Insulin (fasting)",
+                    "result": "10 \u00b5IU/mL"
+                }
+            ]
+        },
+        {
+            "panel_name": "Nutritional Assessment",
+            "tests": [
+                {
+                    "test_name": "Serum Albumin",
+                    "result": "4.0 g/dL"
+                },
+                {
+                    "test_name": "Serum Prealbumin",
+                    "result": "22 mg/dL"
+                },
+                {
+                    "test_name": "Serum Ferritin",
+                    "result": "80 ng/mL"
+                },
+                {
+                    "test_name": "Serum Iron",
+                    "result": "115 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Total Iron Binding Capacity",
+                    "result": "350 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Transferrin Saturation",
+                    "result": "33%"
+                },
+                {
+                    "test_name": "Serum Zinc",
+                    "result": "70 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Serum Vitamin B12",
+                    "result": "610 pg/mL"
+                },
+                {
+                    "test_name": "Serum Folate",
+                    "result": "12 ng/mL"
+                },
+                {
+                    "test_name": "Serum Vitamin A",
+                    "result": "3.2 \u00b5mol/L"
+                }
+            ]
+        },
+        {
+            "panel_name": "Brain Health Assessment",
+            "tests": [
+                {
+                    "test_name": "Mini-Mental State Examination (MMSE)",
+                    "result": "29/30"
+                },
+                {
+                    "test_name": "Montreal Cognitive Assessment (MoCA)",
+                    "result": "27/30"
+                },
+                {
+                    "test_name": "Pittsburgh Sleep Quality Index (PSQI)",
+                    "result": "5/21"
+                },
+                {
+                    "test_name": "Beck Depression Inventory-II (BDI-II)",
+                    "result": "4/63"
+                },
+                {
+                    "test_name": "Serum Brain-Derived Neurotrophic Factor (BDNF)",
+                    "result": "15 ng/mL"
+                },
+                {
+                    "test_name": "Omega\u20113 Index",
+                    "result": "5%"
+                },
+                {
+                    "test_name": "Serum Homocysteine",
+                    "result": "8 \u00b5mol/L"
+                },
+                {
+                    "test_name": "Serum Vitamin E",
+                    "result": "12 mg/L"
+                },
+                {
+                    "test_name": "Serum Neurofilament Light Chain (NfL)",
+                    "result": "25 pg/mL"
+                },
+                {
+                    "test_name": "MRI White Matter Hyperintensity Volume",
+                    "result": "2.0 mL"
+                }
+            ]
+        },
+        {
+            "panel_name": "Skin Analysis",
+            "tests": [
+                {
+                    "test_name": "Skin Hydration Level",
+                    "result": "45%"
+                },
+                {
+                    "test_name": "Skin Elasticity",
+                    "result": "13 mm"
+                },
+                {
+                    "test_name": "Sebum Production Rate",
+                    "result": "16 mg/cm\u00b2"
+                },
+                {
+                    "test_name": "Skin pH",
+                    "result": "5.4"
+                },
+                {
+                    "test_name": "Collagen Density",
+                    "result": "0.86 g/cm\u00b3"
+                },
+                {
+                    "test_name": "Fibroblast Growth Factor Level",
+                    "result": "22 pg/mL"
+                },
+                {
+                    "test_name": "Melanin Index",
+                    "result": "35"
+                },
+                {
+                    "test_name": "Baseline Skin Temperature",
+                    "result": "32.5 \u00b0C"
+                }
+            ]
+        },
+        {
+            "panel_name": "Extended care",
+            "tests": [
+                {
+                    "test_name": "Knee Circumference",
+                    "result": "22.0\u202fcm"
+                },
+                {
+                    "test_name": "Knee Swelling",
+                    "result": "1.5\u202fcm increase (+7.1\u202f% of baseline)"
+                },
+                {
+                    "test_name": "Pain Level (Knee)",
+                    "result": "2/10"
+                },
+                {
+                    "test_name": "Caffeine Intake",
+                    "result": "1 coffee cup (\u224895\u202fmg caffeine)"
+                },
+                {
+                    "test_name": "Hydration Intake (post\u2011coffee)",
+                    "result": "3 glasses of water (\u2248750\u202fmL)"
+                },
+                {
+                    "test_name": "IBuprofen Use",
+                    "result": "Not taken today; plan to hold until BP <140/90"
+                },
+                {
+                    "test_name": "Cardio Session Duration",
+                    "result": "45\u202fmin planned if pain <3/10 and swelling <10\u202f%"
+                },
+                {
+                    "test_name": "Step Count (previous day)",
+                    "result": "8,400 steps"
+                },
+                {
+                    "test_name": "Resting Heart Rate",
+                    "result": "68\u202fbpm"
+                }
+            ]
+        }
+    ]
+}

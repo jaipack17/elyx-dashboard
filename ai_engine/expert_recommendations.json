@@ -1,0 +1,1164 @@
+[
+    {
+        "timestamp": "2025-08-17T09:46:25.889116",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "Increase current medication (e.g., Medication X) to 10\u202fmg daily as approved by Dr.\u202fKumar; take at the same time each day.",
+                "Take all prescribed medications with meals unless otherwise directed by your physician."
+            ],
+            "supplements": [
+                "Vitamin\u202fD3 2000\u202fIU daily to support bone health and immune function.",
+                "Omega\u20113 fatty acid (fish oil) 1000\u202fmg twice daily for cardiovascular and cognitive support.",
+                "Probiotic (1 capsule daily) to maintain gut microbiome balance."
+            ],
+            "workouts": [
+                "Monday \u2013 30\u202fmin brisk walk followed by a 15\u202fmin core circuit (planks, crunches, bicycle twists).",
+                "Wednesday \u2013 45\u202fmin moderate cardio (cycling, elliptical, or running) plus 10\u202fmin full\u2011body stretch.",
+                "Friday \u2013 Full\u2011body resistance training (body\u2011weight or light free weights): 3 sets of 12 reps for squats, lunges, push\u2011ups, and rows."
+            ],
+            "trackers": [
+                "Sleep log: Record bedtime, wake time, and perceived sleep quality; aim for 7\u20138\u202fhrs each night and review with Rachel weekly.",
+                "Medication tracker: Note each dose taken, including the 10\u202fmg adjustment, and any side effects."
+            ],
+            "dietary_recommendations": [
+                "Consume at least 5 servings of fruits and vegetables daily to provide essential micronutrients.",
+                "Include lean protein (chicken, fish, legumes) at every meal to support muscle recovery and satiety.",
+                "Limit added sugars, refined grains, and processed foods; opt for whole\u2011grain alternatives."
+            ],
+            "lifestyle_recommendations": [
+                "Schedule a weekly review with Dr.\u202fKumar to discuss medication progress and any concerns.",
+                "Establish a consistent bedtime routine by 10\u202fpm to improve sleep hygiene.",
+                "Stay hydrated: 2\u20133\u202fliters of water per day, adjusting for activity level.",
+                "Take short 5\u2011minute movement breaks every hour during desk work to reduce sedentary time."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T09:46:40.653736",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "10 mg"
+            ],
+            "supplements": [
+                "omega-3"
+            ],
+            "trackers": [
+                "sleep log by 2 PM"
+            ],
+            "dietary_recommendations": [
+                "add 20 g fiber/fruit daily",
+                "cut sodium"
+            ],
+            "lifestyle_recommendations": [
+                "maintain hydration"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T09:47:37.617874",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                {
+                    "name": "Lisinopril",
+                    "dosage": "10\u202fmg daily",
+                    "instructions": "Take in the morning with a full glass of water. Monitor blood pressure at home twice weekly. If blood pressure drops below 100/60\u202fmmHg, discuss dose adjustment with your provider."
+                },
+                {
+                    "name": "Statin",
+                    "status": "Hold until after flight",
+                    "instructions": "Re\u2011introduce under guidance of Dr. Warren. Keep the prescription ready for future review."
+                }
+            ],
+            "supplements": [
+                {
+                    "name": "Vitamin\u202fD3",
+                    "dose": "2000\u202fIU daily",
+                    "instructions": "Take with a meal containing fat to enhance absorption."
+                },
+                {
+                    "name": "Omega\u20113 fatty acids",
+                    "dose": "1000\u202fmg EPA/DHA combined daily",
+                    "instructions": "Take with breakfast to help reduce inflammation and support cardiovascular health."
+                },
+                {
+                    "name": "Magnesium",
+                    "dose": "400\u202fmg nightly",
+                    "instructions": "Prefer glycinate or citrate form; helps with muscle relaxation and sleep."
+                }
+            ],
+            "workouts": [
+                {
+                    "name": "Aerobic Circuit",
+                    "frequency": "3\u00d7 per week",
+                    "duration": "30\u202fmin",
+                    "details": "20\u202fmin moderate cardio (brisk walk, cycling, or elliptical) followed by 10\u202fmin core and balance drills. Use a gentle warm\u2011up before each session."
+                },
+                {
+                    "name": "Strength & Flexibility Blend",
+                    "frequency": "2\u00d7 per week",
+                    "duration": "45\u202fmin",
+                    "details": "Low\u2011impact resistance training (body\u2011weight squats, wall push\u2011ups, resistance band rows) paired with static stretches for hips, shoulders, and lower back."
+                },
+                {
+                    "name": "Post\u2011flight Mobility Routine",
+                    "frequency": "Daily after flights",
+                    "duration": "10\u202fmin",
+                    "details": "Short walking, neck rolls, shoulder stretches, and calf raises to aid circulation and reduce stiffness."
+                }
+            ],
+            "trackers": [
+                {
+                    "name": "Daily Weight Log",
+                    "frequency": "Every morning before breakfast",
+                    "details": "Record weight on the same digital scale for consistency. Keep a log in a phone app or paper notebook."
+                },
+                {
+                    "name": "Blood Pressure Monitor",
+                    "frequency": "Twice weekly",
+                    "details": "Record systolic/diastolic readings and note any symptoms (dizziness, headache). Share results with Dr. Warren."
+                },
+                {
+                    "name": "Activity Tracker",
+                    "frequency": "All days",
+                    "details": "Use a smartwatch or phone app to monitor steps, heart rate, and active minutes. Aim for at least 7000\u201310\u00a0000 steps daily."
+                },
+                {
+                    "name": "Hydration Log",
+                    "frequency": "Through the day",
+                    "details": "Track fluid intake in ounces or milliliters; target 3\u202fL per day based on activity level."
+                }
+            ],
+            "dietary_recommendations": [
+                {
+                    "tips": "Adopt a Mediterranean\u2011style diet: plenty of leafy greens, whole grains, legumes, fish, and olive oil. Reduce refined carbs and sugary drinks."
+                },
+                {
+                    "tips": "Hydration schedule: 8\u201312 cups (2\u20133\u202fL) of water per day. Increase fluid intake during flights and after workouts. Consider electrolytes if sweating heavily."
+                },
+                {
+                    "tips": "Calorie distribution: 40% carbs, 30% protein, 30% healthy fats. Include 1\u202fg protein per kg body weight to support muscle recovery."
+                },
+                {
+                    "tips": "Limit sodium intake to <2\u202fg/day to support blood pressure control. Choose fresh produce over processed foods."
+                }
+            ],
+            "lifestyle_recommendations": [
+                {
+                    "tips": "Maintain 7\u20139 hours of sleep per night. Aim for a consistent bedtime routine and blackout curtains."
+                },
+                {
+                    "tips": "Manage stress with daily 10\u201315\u202fmin breathing or meditation practice, especially before flights or workouts."
+                },
+                {
+                    "tips": "Schedule regular check\u2011ins with Dr. Warren: medication review, weight trend analysis, and flight\u2011related risk assessment."
+                },
+                {
+                    "tips": "Ergonomic travel setup: use a supportive neck pillow, keep knees slightly below hips when seated, and stand/move every 45\u201360\u202fmin on long flights."
+                },
+                {
+                    "tips": "Rehydrate in stages: sip 8\u201312\u202foz of water every 30\u201160\u202fmin during flights; avoid large volumes at once."
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T09:49:54.966666",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                {
+                    "name": "Lisinopril",
+                    "dose": "10\u202fmg (adjust as prescribed by physician)",
+                    "timing": "Morning (e.g., 07:30\u202fAM) to reduce pre\u2011boarding BP dips.",
+                    "notes": "Keep the same daily dose; just shift the time. Check with your prescriber if you need a dose adjustment."
+                },
+                {
+                    "name": "Ibuprofen",
+                    "dose": "200\u202fmg",
+                    "timing": "Take only if knee pain >5/10. One dose per day max 3\u20134 times.",
+                    "notes": "Use on an empty stomach or with food to minimize GI upset. Do not exceed the recommended daily limit."
+                }
+            ],
+            "supplements": [
+                {
+                    "name": "Protein powder (whey or plant\u2011based)",
+                    "dose": "20\u201325\u202fg per serving",
+                    "timing": "Within 30\u202fminutes after the 5\u2011min walk or before boarding.",
+                    "notes": "Helps with muscle recovery and satiety."
+                },
+                {
+                    "name": "Electrolyte powder",
+                    "dose": "1 container each day",
+                    "timing": "With water during the flight and any dehydrating activity.",
+                    "notes": "Maintains hydration and electrical balance for BP stability."
+                },
+                {
+                    "name": "Magnesium glycinate",
+                    "dose": "200\u202fmg",
+                    "timing": "Evening or before bed.",
+                    "notes": "Supports muscle relaxation and may reduce nighttime BP dips."
+                }
+            ],
+            "workouts": [
+                {
+                    "activity": "Gentle knee rest day",
+                    "duration": "Full day",
+                    "notes": "Avoid elevation and heavy weight\u2011bearing. Ice 15\u202fmin if pain sharpens."
+                },
+                {
+                    "activity": "5\u2011minute brisk walk",
+                    "frequency": "Every 2\u20133\u202fhours during flights or long travel sessions",
+                    "notes": "Prevents stiffness, helps circulation, and provides caffeine\u2011free alertness."
+                },
+                {
+                    "activity": "Deep breathing drills",
+                    "duration": "3\u202f\u00d7\u202f5 breaths",
+                    "notes": "Use diaphragmatic breathing to increase blood oxygenation and calm the nervous system."
+                },
+                {
+                    "activity": "Gentle knee strengthening (arm\u2011supported leg press)",
+                    "reps": "2\u202f\u00d7\u202f10 with low resistance",
+                    "notes": "Performs only after rest day if pain <3/10. Ensures knee stability when returning to activity."
+                }
+            ],
+            "trackers": [
+                {
+                    "type": "Blood pressure",
+                    "frequency": "Twice daily (morning and pre\u2011boarding)",
+                    "notes": "Log readings in a phone app (MyChart, BP Pulse) and notify your doctor if mid\u2011morning dips exceed 120/80\u202fmmHg."
+                },
+                {
+                    "type": "Knee pain scale",
+                    "scale": "0\u201310",
+                    "frequency": "Daily after activity",
+                    "notes": "Track pain post\u2011walk to inform whether ibuprofen is needed."
+                },
+                {
+                    "type": "Medication adherence",
+                    "app": "Medisafe or Pill Club",
+                    "notes": "Set alarms for lisinopril at 07:30\u202fAM and ibuprofen as needed. Log dose times."
+                }
+            ],
+            "dietary_recommendations": [
+                {
+                    "meal": "Protein\u2011rich snack",
+                    "examples": [
+                        "Greek yogurt with berries",
+                        "Hard\u2011boiled eggs",
+                        "Almond butter on whole\u2011grain toast"
+                    ],
+                    "timing": "30\u202fminutes before boarding or after a 5\u2011min walk."
+                },
+                {
+                    "hydrate": "Aim for 30\u202fml water per kilogram of body weight per day. During flights: sip water every 30\u202fmin."
+                },
+                {
+                    "electrolyte drink": "Add one packet of electrolyte powder to a small bottle (300\u202fml) before flights and during long travel periods."
+                },
+                {
+                    "caffeine": "Avoid caffeine \u22654\u202fhours before flights; replace with herbal tea or decaf alternatives if needed."
+                }
+            ],
+            "lifestyle_recommendations": [
+                {
+                    "recommendation": "Morning medication shift",
+                    "detail": "Shift lisinopril to 07:30\u202fAM, ensuring the dose is taken with a glass of water and a light breakfast."
+                },
+                {
+                    "recommendation": "Pre\u2011boarding routine",
+                    "detail": "After walk and protein snack, practice 5\u201310 deep breaths, stretch shoulders and hips, and 5 min meditation with a mindfulness app."
+                },
+                {
+                    "recommendation": "Knee rest days",
+                    "detail": "Schedule at least two days per week with no high\u2011impact activity. Use ice packs 10\u201315\u202fmin post\u2011activity if pain increases."
+                },
+                {
+                    "recommendation": "Monitor BP dips",
+                    "detail": "If daily readings show repeated dips before boarding, contact your physician for a potential dose adjustment or additional meds."
+                },
+                {
+                    "recommendation": "Hydration strategy",
+                    "detail": "Carry a reusable bottle. Log intake and try to keep urine light yellow."
+                },
+                {
+                    "recommendation": "Mind\u2011body alertness",
+                    "detail": "Combine a brisk walk with a protein bite and deep breathing during breaks to boost alertness without caffeine."
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T09:51:43.813786",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "No prescription medications needed at this time. If any new symptoms arise (e.g., knee pain, blood pressure changes), consult a healthcare professional for appropriate medication."
+            ],
+            "supplements": [
+                "Vitamin D3 2000 IU daily \u2013 supports bone health and immune function, especially if sun exposure is limited.",
+                "Omega\u20113 fatty acids (EPA/DHA 1,000 mg daily) \u2013 reduces inflammation and supports cardiovascular health.",
+                "Magnesium 300\u2011400 mg at night \u2013 helps muscle relaxation, reduces cramps, and improves sleep quality.",
+                "Probiotic (10\u201120\u202fBillion CFU) \u2013 promotes gut health, which can influence overall wellness."
+            ],
+            "workouts": [
+                "Low\u2011impact cardio: 30\u202fminutes of brisk walking or stationary cycling, 4\u20115 days/week. Goal: 10,000 steps each day.",
+                "Strength training (3 days/week):",
+                " \u2022 Squats (bodyweight or light resistance) \u2013 3x12 reps (focus on proper form to protect knee).",
+                " \u2022 Chest press with resistance band \u2013 3x10 reps.",
+                " \u2022 Seated row with resistance band \u2013 3x12 reps.",
+                " \u2022 Plank (forearm) \u2013 hold 30\u201145\u202fseconds, 3 sets.",
+                "\u2022 Glute bridges \u2013 3x15 reps.",
+                "Incorporate 5\u2011minute dynamic warm\u2011up and 5\u2011minute cooldown after each session.",
+                "Optional: Gentle 15\u2011minute yoga flow (focus on hip\u2011openers and balance) 1\u20132 times/week."
+            ],
+            "trackers": [
+                "Blood pressure monitor (home cuff) \u2013 record systolic/diastolic at least twice a week in the morning.",
+                "Step counter (smartphone or wearable) \u2013 aim for \u226510,000 steps/day.",
+                "Heart rate monitor \u2013 check resting HR each morning.",
+                "Food diary app (MyFitnessPal, Cronometer) \u2013 track calories, macronutrients, sodium intake.",
+                "Sleep tracker \u2013 target 7\u20118 hours per night, monitor REM and deep sleep stages."
+            ],
+            "dietary_recommendations": [
+                "Adopt the DASH (Dietary Approaches to Stop Hypertension) style: plenty of fruits, vegetables, whole grains, lean protein, low\u2011fat dairy.",
+                "Limit sodium to <2,300\u202fmg/day (aim for 1,500\u202fmg if borderline high BP).",
+                "Include omega\u20113 rich foods: salmon, sardines, chia/seeds, walnuts.",
+                "Stay hydrated: 8\u201310 cups (2\u20132.5\u202fL) of water daily, or more if sweating heavily during workouts.",
+                "Use whole\u2011food sources: avoid processed foods with added sugars and bad fats.",
+                "Consider a multivitamin (100\u202fmg B\u201112, 200\u202fIU vitamin\u202fD, 400\u202f\u00b5g folate) if dietary gaps exist."
+            ],
+            "lifestyle_recommendations": [
+                "Sleep hygiene: consistent bedtime 10:00\u202fPM\u201311:00\u202fAM, dim lights, no screens 1\u202fhour prior.",
+                "Stress management: practice 10\u2011minute mindfulness or breathing exercises daily; consider a weekend nature walk.",
+                "Hydration: carry a reusable water bottle; refill every 1\u20112\u202fhours during work.",
+                "Resume healthy habits post\u2011knee recovery: maintain knee\u2011friendly posture, use ergonomic desk setup, and engage in regular stretching.",
+                "Schedule annual medical check\u2011up and BP screening every 3\u20136\u202fmonths to keep data current.",
+                "Stay socially active: join a community group or online community related to fitness/health to boost motivation."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T09:52:11.380860",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "200 mg ibuprofen daily"
+            ],
+            "workouts": [
+                "light cardio tomorrow",
+                "warm\u2011up before light cardio"
+            ],
+            "trackers": [
+                "pain level (monitor spikes)",
+                "swelling (watch for appearance)"
+            ],
+            "lifestyle_recommendations": [
+                "keep ice after workouts",
+                "stay hydrated"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T09:55:30.731903",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                {
+                    "name": "Ibuprofen",
+                    "dosage": "As directed by healthcare provider",
+                    "instructions": "Hold until blood pressure drops below 140/90 mmHg; consider alternative analgesics if needed"
+                }
+            ],
+            "supplements": [
+                {
+                    "name": "Omega\u20113 Fatty Acids",
+                    "dosage": "2000 mg daily",
+                    "reason": "Supports joint health and helps reduce inflammation"
+                },
+                {
+                    "name": "Vitamin D3",
+                    "dosage": "2000 IU daily",
+                    "reason": "Promotes bone density and overall wellness"
+                }
+            ],
+            "workouts": [
+                {
+                    "type": "Cardio",
+                    "intensity": "Moderate (50\u201160% heart\u2011rate reserve)",
+                    "duration": "20\u201130 minutes",
+                    "frequency": "3\u20134 times per week",
+                    "notes": "Ensure knee swelling remains <10% of baseline (\u22482.2\u202fcm) before each session; low\u2011impact options such as cycling or rowing recommended"
+                },
+                {
+                    "type": "Strength",
+                    "target": "Lower body",
+                    "sets": 2,
+                    "reps": 12,
+                    "frequency": "2 times per week",
+                    "notes": "Use resistance bands or light dumbbells; avoid exercises that increase knee swelling"
+                }
+            ],
+            "trackers": [
+                {
+                    "metric": "Blood Pressure",
+                    "frequency": "Morning and evening",
+                    "tool": "Automated cuff or app\u2011based monitor",
+                    "purpose": "Confirm BP <140/90 mmHg before resuming ibuprofen"
+                },
+                {
+                    "metric": "Knee Swelling",
+                    "measurement": "Circumference difference from baseline",
+                    "frequency": "Pre\u2011workout",
+                    "tool": "Measuring tape",
+                    "purpose": "Keep swelling <10% (\u22482.2\u202fcm) to permit full cardio"
+                },
+                {
+                    "metric": "Hydration",
+                    "goal": "\u22652.5\u202fL/day",
+                    "tool": "Hydration log or smart bottle",
+                    "purpose": "Support cardiovascular function and joint lubrication"
+                }
+            ],
+            "dietary_recommendations": [
+                {
+                    "food_group": "Fruits and Vegetables",
+                    "servings": "5+ per day",
+                    "type": "Colorful variety (berries, leafy greens, bell peppers)",
+                    "reason": "Rich in antioxidants to counter inflammation"
+                },
+                {
+                    "food_group": "Whole Grains",
+                    "servings": "3\u20134 per day",
+                    "type": "Brown rice, oats, quinoa",
+                    "reason": "Stable energy for workouts"
+                },
+                {
+                    "food_group": "Lean Protein",
+                    "grams_per_kg": 0.8,
+                    "type": "Chicken, fish, plant\u2011based options",
+                    "reason": "Muscle repair and joint support"
+                },
+                {
+                    "food_group": "Healthy Fats",
+                    "servings": "Moderate",
+                    "type": "Olive oil, nuts, avocado",
+                    "reason": "Anti\u2011inflammatory properties"
+                },
+                {
+                    "food_group": "Hydration",
+                    "quantity": "\u22652.5\u202fL/day",
+                    "type": "Water",
+                    "reason": "Maintain circulatory and joint health"
+                }
+            ],
+            "lifestyle_recommendations": [
+                "Log BP readings daily to track progress toward <140/90 mmHg.",
+                "Discontinue ibuprofen until BP target is met; use acetaminophen if pain persists.",
+                "Maintain a knee swelling diary; adjust workout intensity and rest days accordingly.",
+                "Aim for >2.5\u202fL of water daily, including electrolytes during heavy sweating.",
+                "Integrate anti\u2011inflammatory foods into meals (omega\u20113 sources, colorful produce).",
+                "Prioritize 7\u20139 hours of sleep per night to aid recovery and BP regulation.",
+                "Practice gentle mobility work and avoid prolonged standing to keep joints healthy."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:01:09.632700",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "Consult Dr.\u202fWarren to review current antihypertensive regimen; consider adding a low\u2011dose diuretic (e.g., 25\u202fmg chlorthalidone daily) if systolic BP consistently >140\u202fmmHg or diastolic >90\u202fmmHg.",
+                "If pain or swelling restricts movement, add a short\u2011acting NSAID (e.g., naproxen 250\u202fmg BID) only for 5\u20137\u202fdays, and re\u2011evaluate symptom severity.",
+                "Maintain any prescribed chronic medication (e.g., statin, antiplatelet) as directed; do not discontinue without medical advice."
+            ],
+            "supplements": [
+                "Daily 1000\u20131500\u202fmg omega\u20113 fatty acids (EPA/DHA) to support cardiovascular health and reduce inflammation.",
+                "Vitamin\u202fD\u2083 2000\u202fIU daily (or 1000\u202fIU if <20\u202fng/mL on lab test) to aid blood pressure regulation.",
+                "Magnesium 400\u202fmg nightly to help maintain healthy blood pressure and aid in muscle relaxation.",
+                "Probiotic 10\u202fbillion CFU per day to support gut health, which can influence systemic inflammation."
+            ],
+            "workouts": [
+                "20\u2011minute low\u2011impact cardio (e.g., cycling on a stationary bike or using an elliptical) if pain score \u22643; maintain heart rate at 50\u201160\u202f% of age\u2011based maximum.",
+                "If swelling score >3, replace cardio with brisk walking for 20\u202fminutes; include gentle heel\u2011to\u2011toe balance drills post\u2011walk.",
+                "Add 3\u20134 resistance\u2011band sessions per week focusing on major muscle groups; keep sets to 12\u201315 reps, 2\u20133 sets each.",
+                "Incorporate daily 10\u2011minute flexibility routine (hamstring stretch, seated spinal twist, shoulder openers) to improve joint mobility.",
+                "Schedule a short 10\u2011minute foam\u2011roll or self\u2011massage session after workouts to aid recovery."
+            ],
+            "trackers": [
+                "Blood pressure cuff with app linkage (eg., Withings Blood Pressure Monitor) to log readings at home twice daily and share data with Dr.\u202fWarren.",
+                "Daily pain & swelling diary in a mobile app (e.g., MyPainLog) with numeric scales (0\u201310) for pain and swelling severity.",
+                "Hydration tracker (eg., WaterMinder) to prompt intake of 2.5\u20133\u202fL of water per day, coinciding with each coffee cup.",
+                "Sleep tracker (e.g., Fitbit, Apple Watch) to monitor 7\u20139\u202fhr/night and assess sleep quality (deep vs. REM stages)."
+            ],
+            "dietary_recommendations": [
+                "Limit caffeine to no more than 2 standard cups per day; replace the 3rd cup with herbal tea or infused water.",
+                "Emphasize a DASH\u2011style diet: 2\u20133 servings of leafy greens, 3 servings of fruit, 3\u20134 servings of whole grains, 2\u20133 servings of low\u2011fat dairy, 2 servings of lean protein (fish, poultry) per day.",
+                "Reduce sodium intake to <1500\u202fmg/day; avoid processed foods, canned soups, and salty snacks.",
+                "Include potassium\u2011rich foods (bananas, sweet potatoes, spinach) to support BP control.",
+                "Maintain balanced carbohydrate intake (~45\u201355\u202f% of total calories) with a focus on complex carbs over refined grains."
+            ],
+            "lifestyle_recommendations": [
+                "Set a daily routine: wake\u2011up, hydration, breakfast, medication, 20\u2011min cardio/walk + strength + flexibility routine, lunch, hydration, office breaks (5\u2011min stretch every hour), dinner, relaxation, sleep by 10:00\u202fpm.",
+                "Schedule quarterly follow\u2011ups with Dr.\u202fWarren and routine BP monitoring at the clinic; bring home readings for continuity of care.",
+                "Adopt stress\u2011management practices: 10\u202fminutes of guided meditation or deep breathing before workouts and before bedtime.",
+                "Ensure adequate sleep hygiene: keep a consistent bedtime, limit screen exposure 1\u202fhour before bed, and maintain a cool, quiet sleeping environment.",
+                "Plan for social supports: engage in group fitness classes or partner walks to maintain motivation and accountability."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:03:05.870566",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "Resume antihypertensive medication (e.g., a low\u2011dose diuretic or ACE inhibitor) once systolic BP drops below 140\u202fmmHg and diastolic below 90\u202fmmHg.",
+                "Consider adding a low\u2011dose beta\u2011blocker if HRV continues to dip below baseline three times per week (subject to physician approval).",
+                "If knee pain exceeds a 4\u2011point threshold, use a short course of NSAID (e.g., ibuprofen 200\u202fmg every 8\u201312\u202fh) for 3\u20135 days, paired with ice and elevation.",
+                "Discuss medication scheduling with Dr. Warren to avoid morning caffeine\u2011induced BP spikes."
+            ],
+            "supplements": [
+                "Omega\u20113 fatty acids: 1\u202fg EPA\u202f+\u202fDHA daily to support cardiovascular health.",
+                "Magnesium glycinate: 300\u202fmg nightly to aid BP regulation.",
+                "Glucosamine sulfate: 1500\u202fmg twice daily in water to support knee joint cartilage.",
+                "Vitamin\u202fD3: 2000\u202fIU daily (or as directed by blood levels) for bone and muscle function.",
+                "Probiotic with Lactobacillus rhamnosus: 1\u202fbillion CFU daily to promote gut health and systemic inflammation reduction."
+            ],
+            "workouts": [
+                "10\u2011minute brisk walk five days a week, ensuring knee pain stays \u22643/10; record pain on the same scale after each walk.",
+                "Progressively add 5 minutes each week until 30\u2011minute walks are comfortable, monitoring pain and BP pre\u2011 and post\u2011exercise.",
+                "2 days a week of low\u2011impact strength training focused on the knees \u2013 e.g., seated leg press, hamstring curls, and quadriceps sets of 8\u201312 reps.",
+                "Daily stretching routine (5\u2011min hamstring, quad, calf, hip flexor stretches) to improve circulation and reduce knee stiffness.",
+                "Incorporate HRV monitoring before and after each workout using a validated app to gauge stress response."
+            ],
+            "trackers": [
+                "Home BP cuff: measure at the same times each morning and evening; log readings in a paper or digital chart.",
+                "HRV app (e.g., Elite HRV or Oura) to capture nightly trends; set a reminder each night to record.",
+                "Pain diary: record numeric pain score 0\u201310 immediately after each walk or workout.",
+                "Coffee intake journal: log number of cups and time consumed; aim for maximum of 2 cups/day before noon.",
+                "Activity wearable (e.g., Fitbit, Apple Watch) to track steps, heart rate zones, and average daily activity."
+            ],
+            "dietary_recommendations": [
+                "Adopt the DASH diet: limit sodium to <1500\u202fmg/day, increase fruits, vegetables, and low\u2011fat dairy.",
+                "Cap caffeine at 2 cups (\u2248200\u202fmg) per day, preferably before 12\u202fpm to mitigate post\u2011coffee BP spikes.",
+                "Increase potassium intake: 4\u202f000\u202fmg/day via bananas, spinach, sweet potatoes, and beans.",
+                "Replace processed foods with whole\u2011grain alternatives; cut refined sugars.",
+                "Target 2\u202fL of water per day; observe hydration as a factor in BP and HRV."
+            ],
+            "lifestyle_recommendations": [
+                "Aim for 7\u20139 hours of sleep each night; consider a pre\u2011bedtime routine that includes light stretching or meditation.",
+                "Practice 10\u2011minute mindfulness meditation or deep\u2011breathing exercise daily to lower stress and improve HRV.",
+                "Maintain a consistent meal schedule: avoid heavy meals within 3\u202fhours of bedtime to support heart health.",
+                "Use proper ergonomics while walking \u2013 maintain a neutral spine, relaxed shoulders, and avoid shifting weight to one knee.",
+                "Schedule a 5\u2011minute weekly review with Dr. Warren, uploading BP, HRV, pain, and coffee intake logs for adjustments.",
+                "Limit screen time at night; use blue\u2011light filters to improve sleep quality and circadian rhythm."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:04:57.316504",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [],
+            "supplements": [],
+            "workouts": [
+                {
+                    "description": "Start every session with a 10\u2011minute dynamic warm\u2011up (leg swings, arm circles, inchworms) to increase blood flow and reduce the risk of chest\u2011tightness."
+                },
+                {
+                    "description": "Incorporate low\u2011to\u2011moderate intensity cardio blocks (e.g., 30\u2011second intervals at ~75% HRmax) with a 1\u2011minute active recovery to keep the heart rate steady and monitor HRV responses."
+                },
+                {
+                    "description": "Add 2\u20133 core stabilization sets (planks, bird\u2011dogs, side\u2011planks) each lasting 30\u201160 seconds to strengthen the thoracic region without over\u2011loading the heart."
+                },
+                {
+                    "description": "Finish with 5\u2011minute static stretches focusing on chest, shoulders, and upper back to promote recovery."
+                },
+                {
+                    "description": "Plan one full rest day per week; use active recovery on lighter days (e.g., walking or gentle cycling) if HRV trends are below baseline."
+                }
+            ],
+            "trackers": [
+                {
+                    "name": "HRV Monitoring",
+                    "frequency": "Daily morning measurement",
+                    "tool": "Chest strap or photoplethysmography watch",
+                    "action": "If HRV < baseline by >10%, skip high\u2011intensity blocks the following day."
+                },
+                {
+                    "name": "Pulse Check",
+                    "frequency": "Every 5 minutes during sessions",
+                    "tool": "Smartwatch or wrist monitor",
+                    "action": "If pulse > 170 bpm or irregular, stop exercise immediately and note symptom."
+                },
+                {
+                    "name": "Caffeine Intake Log",
+                    "frequency": "Every caffeinated beverage",
+                    "tool": "Nutrition app (MyFitnessPal, Cronometer)",
+                    "action": "Track milligrams and time of intake relative to workout."
+                },
+                {
+                    "name": "Chest Tightness Flag",
+                    "frequency": "Post\u2011workout survey",
+                    "tool": "In-app questionnaire",
+                    "action": "Alert clinician if tightness persists > 30 seconds after exercise."
+                },
+                {
+                    "name": "Hydration Status",
+                    "frequency": "Pre\u2011 and post\u2011exercise weigh",
+                    "tool": "Digital scale with weight\u2011tracking app",
+                    "action": "Aim for a 0.5% weight loss during workout to stay well\u2011hydrated."
+                }
+            ],
+            "dietary_recommendations": [
+                {
+                    "description": "Consume 400\u2013600\u202fmg of caffeine 90 minutes before training to avoid peak cardiac load during the most demanding intervals."
+                },
+                {
+                    "description": "Drink at least 500\u202fml of water 30 minutes before exercise, then sip 200\u2013250\u202fml every 10 minutes during activity."
+                },
+                {
+                    "description": "Follow a carbohydrate\u2011lean breakfast (~50\u202fg carbs) with a moderate protein portion (20\u201325\u202fg) to support glycogen resynthesis without overloading the heart."
+                },
+                {
+                    "description": "Limit sodium intake to <2\u202fg/day; choose low\u2011salt foods and limit processed snacks."
+                },
+                {
+                    "description": "Avoid alcohol within 48\u202fhours of intense training; it can impair HRV recovery and sleep quality."
+                }
+            ],
+            "lifestyle_recommendations": [
+                {
+                    "description": "Aim for 7\u20138\u202fhours of sleep nightly; maintain a consistent bedtime routine to improve HRV baseline."
+                },
+                {
+                    "description": "Schedule caffeine consumption no later than 3\u202fpm to prevent interference with sleep architecture."
+                },
+                {
+                    "description": "Incorporate 20\u2011minute guided mindfulness or breath\u2011work sessions 3\u20135 days a week to lower stress and support cardiac autonomic balance."
+                },
+                {
+                    "description": "If chest tightness is reported or HRV trends remain low for >3 consecutive days, schedule a check\u2011in with a cardiologist or sports\u2011medicine provider."
+                },
+                {
+                    "description": "Use a daily self\u2011health log (pain, mood, fatigue) to identify patterns that may prompt early flagging for clinicians."
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:08:12.276954",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                {
+                    "name": "lisinopril",
+                    "dose": "10 mg once daily",
+                    "suggestion": "Take with a small meal to reduce stomach upset"
+                },
+                {
+                    "name": "metoprolol",
+                    "dose": "25 mg once daily",
+                    "suggestion": "Start low; monitor heart rate and blood pressure for tolerance"
+                },
+                {
+                    "name": "simvastatin",
+                    "dose": "20 mg once daily",
+                    "suggestion": "Use to manage cholesterol, reducing cardiac risk"
+                }
+            ],
+            "supplements": [
+                {
+                    "name": "magnesium (oxide)",
+                    "dose": "400 mg daily",
+                    "suggestion": "Supports vascular tone and helps lower BP"
+                },
+                {
+                    "name": "Omega\u20113 fatty acids (fish oil)",
+                    "dose": "1000 mg daily",
+                    "suggestion": "Reduces inflammation and improves endothelial function"
+                },
+                {
+                    "name": "Vitamin D3",
+                    "dose": "2000 IU daily",
+                    "suggestion": "Helps blood\u2011pressure regulation and overall cardiovascular health"
+                }
+            ],
+            "workouts": [
+                {
+                    "type": "low\u2011impact cardio",
+                    "frequency": "5 days/week",
+                    "duration": "30\u201145 min per session",
+                    "details": "Use stationary bike or brisk walking at 60\u201170% HRmax"
+                },
+                {
+                    "type": "strength training",
+                    "frequency": "2 days/ week",
+                    "duration": "20\u201130 min",
+                    "details": "Body\u2011weight exercises (squats, wall push\u2011ups) with light resistance bands"
+                },
+                {
+                    "type": "mobility & flexibility",
+                    "frequency": "daily",
+                    "duration": "10\u201115 min",
+                    "details": "Gentle yoga or stretching routine focusing on the chest and lower back"
+                }
+            ],
+            "trackers": [
+                {
+                    "device": "blood\u2011pressure cuff",
+                    "frequency": "morning & evening",
+                    "notes": "Record readings before meals and after medication"
+                },
+                {
+                    "device": "heart\u2011rate monitor",
+                    "frequency": "daily",
+                    "notes": "Track average HR during workouts & rest"
+                },
+                {
+                    "device": "activity tracker",
+                    "frequency": "continuous",
+                    "notes": "Track steps, sleep quality, and stress levels"
+                }
+            ],
+            "dietary_recommendations": [
+                {
+                    "focus": "DASH diet",
+                    "details": "Emphasize fruits, vegetables, whole grains, lean protein, low\u2011fat dairy; limit sodium to < 1500 mg/day"
+                },
+                {
+                    "focus": "Potassium intake",
+                    "details": "Aim for 3500\u20114700 mg/day to counteract sodium effects"
+                },
+                {
+                    "focus": "Plant\u2011based proteins",
+                    "details": "Incorporate beans, lentils, tofu, and nuts; limit red meat to 1\u20132 servings/week"
+                }
+            ],
+            "lifestyle_recommendations": [
+                {
+                    "category": "stress management",
+                    "details": "Practice mindfulness meditation 10 minutes daily; consider progressive muscle relaxation before bed"
+                },
+                {
+                    "category": "sleep hygiene",
+                    "details": "Aim for 7\u20138 hours per night; maintain consistent sleep schedule; keep bedroom dark and cool"
+                },
+                {
+                    "category": "substance use",
+                    "details": "Limit alcohol to \u2264 2 drinks/week; avoid nicotine and other stimulants"
+                },
+                {
+                    "category": "regular check\u2011ups",
+                    "details": "Schedule quarterly doctor visits and annual blood\u2011pressure monitoring"
+                },
+                {
+                    "category": "hydration",
+                    "details": "Drink 8\u201310 cups of water daily, especially before workouts"
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:09:55.433195",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                {
+                    "name": "Unspecified antihypertensive (e.g., amlodipine, labetalol, or atenolol)",
+                    "dose_mg": 100,
+                    "timing": "Take 100 mg orally 30\u201360 minutes before any scheduled blood pressure measurement or stress test.",
+                    "purpose": "Maintain systolic/diastolic readings <140/90 mmHg.",
+                    "precautions": [
+                        "Monitor BP 1 hour after ingestion to confirm effect.",
+                        "If BP exceeds 140/90 mmHg, contact your clinician.",
+                        "Avoid concurrent use of strong CYP3A4 inhibitors that could increase dose exposure."
+                    ]
+                }
+            ],
+            "supplements": [
+                {
+                    "name": "Omega\u20113 fatty acids (EPA/DHA)",
+                    "dose_mg": 2000,
+                    "frequency": "2\u20133 times per week",
+                    "benefit": "Improves endothelial function and may reduce blood pressure response to exercise."
+                },
+                {
+                    "name": "Vitamin D3",
+                    "dose_mg": 2000,
+                    "frequency": "Daily",
+                    "benefit": "Supports vascular health and may enhance exercise tolerance."
+                },
+                {
+                    "name": "Magnesium",
+                    "dose_mg": 400,
+                    "frequency": "Daily",
+                    "benefit": "Eases muscle soreness and supports cardiovascular function."
+                }
+            ],
+            "workouts": [
+                {
+                    "type": "Low\u2011impact cardio",
+                    "examples": [
+                        "Stationary cycling",
+                        "Elliptical trainer"
+                    ],
+                    "duration_minutes": 20,
+                    "frequency_per_week": 3,
+                    "intensity": "Maintain HR below 70% of maximal HR (approx. 110\u2013120 bpm)."
+                },
+                {
+                    "type": "Strength training",
+                    "focus": "Upper body and core with light resistance",
+                    "sessions_per_week": 2,
+                    "notes": "Exclude heavy squats or leg presses to reduce knee strain. Use a compression sleeve during sets."
+                },
+                {
+                    "type": "Flexibility & mobility",
+                    "exercises": [
+                        "Seated hamstring stretch",
+                        "Hip flexor stretch",
+                        "Knee joint range of motion drills"
+                    ],
+                    "duration_minutes": 10,
+                    "frequency_per_day": 1
+                }
+            ],
+            "trackers": [
+                {
+                    "device": "Blood Pressure Monitor",
+                    "instructions": "Record systolic/diastolic readings twice daily and after medication intake. Save data to a digital log or smartwatch app."
+                },
+                {
+                    "device": "Pain Scale Recorder",
+                    "instructions": "Log knee pain on a 0\u201310 scale each day, especially when wearing the compression sleeve."
+                },
+                {
+                    "device": "Sleep Tracker",
+                    "purpose": "Ensure at least 7\u20138 hours of quality sleep, as restfulness influences BP."
+                }
+            ],
+            "dietary_recommendations": [
+                {
+                    "goal": "Sodium reduction",
+                    "target_grams": "<2300",
+                    "tips": [
+                        "Avoid processed foods and restaurant meals.",
+                        "Use herbs and spices instead of salt.",
+                        "Replace table salt with potassium\u2011rich foods (bananas, sweet potatoes)."
+                    ]
+                },
+                {
+                    "goal": "DASH diet adherence",
+                    "recommendation": "Incorporate high\u2011protein, high\u2011fiber, low\u2011calorie salads and vegetable\u2011based meals."
+                },
+                {
+                    "goal": "Hydration",
+                    "hint": "Aim for 2\u20133 L of water per day to maintain the body's regulatory mechanisms."
+                }
+            ],
+            "lifestyle_recommendations": [
+                {
+                    "category": "Stress Management",
+                    "suggestions": [
+                        "Practice diaphragmatic breathing for 5 minutes twice daily.",
+                        "Try a 10\u2011minute guided meditation or progressive muscle relaxation."
+                    ]
+                },
+                {
+                    "category": "Sleep Hygiene",
+                    "advice": [
+                        "Maintain a consistent bedtime routine (lights out by 10 p.m.).",
+                        "Avoid caffeine after 2 p.m. and limit screen time 1 hour before bed."
+                    ]
+                },
+                {
+                    "category": "Compression Sleeve Use",
+                    "details": [
+                        "Wear a compression sleeve for the knee when engaging in any activity that may aggravate the joint.",
+                        "Track swelling and pain levels; adjust sleeve tightness as necessary."
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:11:43.040566",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "Take 100\u202fmg to keep BP below 140/90."
+            ],
+            "trackers": [
+                "Log knee pain on a scale of 0\u201110 and note if it exceeds 3/10.",
+                "Check blood pressure after taking the medication."
+            ],
+            "lifestyle_recommendations": [
+                "Wear a compression sleeve before Friday to help with knee swelling."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:14:12.737769",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "Maintain current pain\u2011relief regimen (e.g., ibuprofen 200\u202fmg every 6\u20118\u202fh as needed) to manage knee discomfort.",
+                "If knee pain persists beyond brace, consider a brief course of topical NSAIDs (e.g., diclofenac gel) applied three times daily.",
+                "Discuss with Dr. Warren any systemic medication changes prior to the next visit; no changes noted at this time."
+            ],
+            "supplements": [
+                "Magnesium glycinate 400\u202fmg (taken 30\u202fmin before bedtime) to support REM sleep and reduce muscle cramps.",
+                "Collagen hydrolysate 20\u202fg (pre\u2011exercise) to aid joint recovery during the brace period.",
+                "Omega\u20113 fatty acid (EPA/DHA 2\u202fg/day) to modulate inflammation associated with knee strain.",
+                "Vitamin D3 2000\u202fIU daily (if recommended by provider) to support overall musculoskeletal health."
+            ],
+            "workouts": [
+                "Morning light walk: 10\u202fmin at a 3\u20134\u202fmph pace, walking on even terrain.",
+                "Evening recovery routine before bed: 5\u202fmin foam\u2011roll on quad\u2011core muscle groups (hamstrings, quads, calves) followed by gentle dynamic stretches.",
+                "Introduce knee\u2011specific gentle mobility drills (e.g., gentle knee flexion\u2011extension 10\u202freps) when the brace feels secure.",
+                "Avoid high\u2011impact or resistance training (e.g., heavy squats, plyometric drills) until knee pain subsides."
+            ],
+            "trackers": [
+                "Sleep monitor: use a wearable or smartphone sleep\u2011tracker to log REM duration, slept minutes, and bedtime consistency.",
+                "Pain log: keep a 15\u2011min interval pain score sheet (0\u201310) during brace period to identify flare patterns.",
+                "Screen\u2011time tracker: log screen usage with a daily activity app to confirm 30\u2011minute earlier cessation.",
+                "Activity log: at least 3 per week entries noting walk distance, foam\u2011roll details, and overall exercise duration."
+            ],
+            "dietary_recommendations": [
+                "Caffeine: limit consumption to 2\u202fpm or earlier to preserve sleep quality.",
+                "Magnesium\u2011rich foods: leafy greens (spinach), nuts (almonds), beans (black beans), leafy spinach, or Greek yogurt.",
+                "Omega\u20113 boosters: canned sardines, salmon, chia seeds, or an omega\u20113 supplement to aid inflammation control.",
+                "Hydration: aim for 3\u202fL/day water; consider electrolyte\u2011rich beverages if training intensifies.",
+                "Avoid heavy protein shakes pre\u2011but before bedtime as it may interfere with sleep hygiene."
+            ],
+            "lifestyle_recommendations": [
+                "Shift bedtime 30\u202fmin earlier and maintain that window consistently; target lights\u202foff at 10:15\u202fpm (example) to preserve REM continuity.",
+                "Advance screen\u2011time clearance 30\u202fmin before the new bedtime to reduce blue\u2011light exposure; consider blue\u2011light filters.",
+                "Keep knee brace snug but comfortable; change if it becomes overly snug or leaks fluid.",
+                "Do a 5\u2011min foam\u2011roll before couch or bedtime to increase blood flow to the lower limb and relieve any pre\u2011existing tension.",
+                "Monitor pain every 15\u202fmin during duties and record on tracker; if pain spikes above 7/10, contact Dr. Warren for acute intervention.",
+                "Incorporate nightly relaxation practice (e.g., diaphragmatic breathing or progressive muscle relaxation) to reduce pre\u2011sleep arousal.",
+                "Maintain routine transitioning from wake\u2011up to nighttime: consistent wake time, regular hydration, and light dinner if applicable."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:15:48.073950",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "Consider OTC NSAIDs (e.g., ibuprofen 400mg) as needed for knee pain, ensuring no contraindications."
+            ],
+            "supplements": [
+                "Omega\u20113 fatty acid supplement 1000mg daily to support joint health.",
+                "Vitamin D3 2000 IU daily for bone strength."
+            ],
+            "workouts": [
+                "Daily 10\u2011minute light walk to maintain knee mobility.",
+                "Avoid high\u2011impact exercises until knee pain drops below 5/10.",
+                "Include gentle knee range\u2011of\u2011motion stretches."
+            ],
+            "trackers": [
+                "Pain diary: record knee pain level (1\u201110) each day.",
+                "Hydration log: track water intake to ensure at least 2\u20113 liters per day.",
+                "Brace usage log: note when brace is worn and pain level."
+            ],
+            "dietary_recommendations": [
+                "Stay well hydrated with water, herbal teas, and electrolyte\u2011rich fluids.",
+                "Consume anti\u2011inflammatory foods: berries, leafy greens, fatty fish, nuts.",
+                "Maintain balanced meals with adequate protein for tissue repair."
+            ],
+            "lifestyle_recommendations": [
+                "Wear the knee brace until pain reduces below 5/10; switch to sleeve if pain decreases.",
+                "Apply gel\u2011pad to knee for extra support during activity.",
+                "Inhale before flight takeoff to ease chest discomfort.",
+                "Take short movement breaks during long periods of sitting.",
+                "Notify healthcare provider if pain escalates or persists beyond 48 hours."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:16:23.658258",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "Pop an antacid if stomach cramps return."
+            ],
+            "lifestyle_recommendations": [
+                "Use a knee brace; switch to a sleeve only if pain drops below 5/10.",
+                "Breathing exercise: 4\u202fs inhale, 6\u202fs pause, repeat (or 4\u2011beat inhale, 8\u2011count hold, exhale)."
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:18:09.791686",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                {
+                    "name": "Antacid (e.g., calcium carbonate 500 mg)",
+                    "dose": "Take 2 tablets (1,000 mg) 30 minutes before meals",
+                    "frequency": "As needed for cramps",
+                    "notes": "Continue current usage; monitor cramps every 3 days"
+                },
+                {
+                    "name": "Ibuprofen (Advil) 200 mg",
+                    "dose": "Take 200 mg with food",
+                    "frequency": "Twice daily for knee pain if 3/10 or higher",
+                    "notes": "Use only if no contraindication; avoid long-term use without physician review"
+                },
+                {
+                    "name": "Pain\u2011relief topical gel (e.g., diclofenac gel)",
+                    "dose": "Apply 2 grams",
+                    "frequency": "Three times daily to knee",
+                    "notes": "Co\u2011use with brace for added support"
+                }
+            ],
+            "supplements": [
+                {
+                    "name": "Magnesium glycinate",
+                    "dose": "200 mg",
+                    "frequency": "Once daily at bedtime",
+                    "notes": "Helps reduce muscle cramps"
+                },
+                {
+                    "name": "Omega\u20113 fatty acids (EPA/DHA)",
+                    "dose": "1,000 mg combined per day",
+                    "frequency": "Daily",
+                    "notes": "Anti\u2011inflammatory benefit for knee pain"
+                },
+                {
+                    "name": "Vitamin D3",
+                    "dose": "5,000 IU",
+                    "frequency": "Once daily",
+                    "notes": "Supports bone health; check levels"
+                }
+            ],
+            "workouts": [
+                {
+                    "name": "Low\u2011impact walking",
+                    "duration": "20\u201330 minutes",
+                    "frequency": "5 days/week",
+                    "notes": "Keep knee brace during walks; focus on even surface"
+                },
+                {
+                    "name": "Stationary bike (low resistance)",
+                    "duration": "15 minutes warm\u2011up, 20 minutes steady state",
+                    "frequency": "3 days/week",
+                    "notes": "Avoid sharp turns; monitor knee pain"
+                },
+                {
+                    "name": "Breathing exercise (4\u20137\u20138 breathing drill)",
+                    "duration": "5 minutes",
+                    "frequency": "Daily",
+                    "notes": "Practice before bed to aid relaxation"
+                }
+            ],
+            "trackers": [
+                {
+                    "name": "Pain diary",
+                    "format": "Daily entry: cramp intensity (0\u201310), knee pain (0\u201310), med use",
+                    "notes": "Review weekly with Dr. Warren"
+                },
+                {
+                    "name": "Activity monitor (e.g., Fitbit)",
+                    "metric": "Steps, heart rate, sleep",
+                    "notes": "Aim for 5,000 steps/day until knee stabilizes"
+                },
+                {
+                    "name": "Mobility tracker (Google Fit)",
+                    "metric": "Joint range of motion",
+                    "notes": "Book weekly check with PT"
+                }
+            ],
+            "dietary_recommendations": [
+                {
+                    "name": "Increase potassium intake",
+                    "examples": "Bananas, sweet potatoes, spinach",
+                    "amount": "At least 4,700 mg/day"
+                },
+                {
+                    "name": "Hydration",
+                    "goal": "2\u20133 L of water per day",
+                    "notes": "Fluids help prevent cramps"
+                },
+                {
+                    "name": "Balanced meals",
+                    "components": "Protein 20\u201330%, complex carbs 45\u201355%, healthy fats 20\u201325%",
+                    "notes": "Avoid high sodium and processed foods"
+                }
+            ],
+            "lifestyle_recommendations": [
+                {
+                    "name": "Sleep hygiene",
+                    "steps": "8\u2011hour sleep, consistent bedtime, reduce caffeine after 2 PM"
+                },
+                {
+                    "name": "Footwear",
+                    "guide": "Supportive shoes with cushioning",
+                    "notes": "Replace worn shoes every 6\u201312 months"
+                },
+                {
+                    "name": "Stress management",
+                    "techniques": "Mindfulness, yoga, short walks",
+                    "duration": "10\u201315 minutes daily"
+                },
+                {
+                    "name": "Follow\u2011up appointments",
+                    "schedule": "Weekly self\u2011report, bi\u2011weekly doctor check"
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-17T10:19:38.385407",
+        "expert_name": "Team Elyx",
+        "recommendations": {
+            "medicines": [
+                "Continue taking a 100\u202fmg analgesic (e.g., ibuprofen 100\u202fmg) with an antacid until cramps subside.  Maintain the same dose if pain remains below 5/10.",
+                "If pain escalates above 5/10, schedule a follow\u2011up with the prescribing clinician and do not exceed recommended daily limits.",
+                "Take medication with a full glass of water to aid absorption and reduce gastric irritation.",
+                "Avoid alcohol while taking the medication to minimise stomach upset."
+            ],
+            "supplements": [
+                "Magnesium 400\u202fmg daily (preferably an oral chelate) to aid muscle relaxation and reduce cramping.",
+                "Vitamin\u202fC 500\u202fmg daily to support antioxidant defense during inflammation.",
+                "Omega\u20113 fatty acids (EPA/DHA) 1\u202fg daily to help dampen inflammatory pathways.",
+                "Probiotic capsule (1\u202fstimulation per day) to promote gut health, which can influence pain perception.",
+                "Curcumin 500\u202fmg with black pepper (piperine) daily for its anti\u2011inflammatory properties."
+            ],
+            "workouts": [
+                "Gentle stretching routine: 5\u201310\u202fminutes focusing on hamstrings, calves, lower back, and hip flexors.",
+                "Low\u2011impact cardio such as walking or cycling: 20\u201330\u202fminutes, 3 times per week, aiming for a moderate heart\u2011rate zone.",
+                "Core strengthening: planks 2\u20133 sets of 15\u201320\u202fseconds, 2\u20133 times per week.",
+                "Pilates\u2011style mobility routine (5\u201310\u202fminutes) to enhance lumbar flexibility and reduce strain.",
+                "Light resistance training with elastic bands: 15\u202fminutes, 2 times per week, avoiding heavy loading on the affected area."
+            ],
+            "trackers": [
+                "Pain diary app: log pain level (0\u201110) and medication taken after each event.",
+                "Sleep tracker: target 7\u20139\u202fhours; review nightly quality and duration.",
+                "Activity tracker: aim for 5,000\u20137,000 steps per day, noting periods of rest and movement.",
+                "Hormonal cycle tracker: note cramp onset relative to cycle to predict flare\u2011ups.",
+                "Hydration tracker: record water intake; aim for 2\u20133\u202fliters per day."
+            ],
+            "dietary_recommendations": [
+                "Prioritise high\u2011fiber foods\u2014whole grains, legumes, fruits, and vegetables\u2014to aid digestion and reduce constipation\u2011related cramping.",
+                "Hydrate consistently: 2\u20133\u202fliters of water daily, especially before, during, and after activity.",
+                "Consume adequate protein (lean meats, tofu, beans) to support muscle repair.",
+                "Limit caffeine, alcohol, and highly spicy foods during periods of cramp activity.",
+                "Include omega\u20113\u2011rich foods such as salmon, chia seeds, and walnuts to support anti\u2011inflammatory nutrition.",
+                "Warm herbal tea (ginger, peppermint, or chamomile) can soothe muscle tension and abdominal discomfort."
+            ],
+            "lifestyle_recommendations": [
+                "Use the prescribed brace during the flight and daily commute; switch to a compression sleeve only when pain drops below 5/10.",
+                "Purge lumbar support pillow during sleep and maintain neutral spinal alignment.",
+                "Practice mindful posture: shoulders squared, chest open, avoid prolonged slouching.",
+                "Schedule a 5\u2011minute break every 45\u201360\u202fminutes of sitting to move and stretch.",
+                "Wear compression stockings on the flight to promote venous return and reduce swelling.",
+                "Keep a light, balanced diet and avoid large, heavy meals before bedtime to minimise abdominal cramp triggers."
+            ]
+        }
+    }
+]
