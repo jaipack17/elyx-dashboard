@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Calendar } from "@/components/ui/calendar"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Pill, Stethoscope, Activity, AlertCircle, Clock, TrendingUp } from "lucide-react"
-import { format, addDays } from "date-fns"
+import { format } from "date-fns"
 import travelLog from "@/data/travel_log.json"
 import { getRecommendationEvents } from "@/lib/recommendation-events"
 
@@ -27,7 +27,6 @@ interface TimelineEvent {
 }
 
 interface MemberTimelineProps {
-  memberId: string
   selectedDate: string
   onDateSelect: (date: string) => void
   joinDate: string
@@ -122,7 +121,7 @@ const getEventColor = (type: string, status: string, color?: string) => {
   }
 }
 
-export function MemberTimeline({ memberId, selectedDate, onDateSelect, joinDate }: MemberTimelineProps) {
+export function MemberTimeline({ selectedDate, onDateSelect, joinDate }: MemberTimelineProps) {
   const [date, setDate] = useState<Date>(new Date(selectedDate))
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null)
 

@@ -12,11 +12,7 @@ import {
 } from "recharts"
 import expertTimeSummary from '@/data/expert_time_summary.json'
 
-interface MetricsDashboardProps {
-  memberId: string
-}
-
-export function MetricsDashboard({ memberId }: MetricsDashboardProps) {
+export function MetricsDashboard() {
   const expertData = Object.entries(expertTimeSummary).map(([name, hours]) => ({
     name,
     hours,

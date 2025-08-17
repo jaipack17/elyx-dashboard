@@ -21,18 +21,7 @@ interface PerformanceMetricsProps {
 // Sample data for the charts
 const { cholesterolData, vo2MaxData } = getPerformanceMetricsData();
 
-const generateData = (start, end, min, max) => {
-  const data = [];
-  let currentDate = new Date(start);
-  while (currentDate <= new Date(end)) {
-    data.push({
-      date: currentDate.toLocaleString('default', { month: 'short', year: '2-digit' }),
-      value: Math.floor(Math.random() * (max - min + 1)) + min,
-    });
-    currentDate.setMonth(currentDate.getMonth() + 1);
-  }
-  return data;
-};
+
 
 const biologicalAgeData = [
   { date: "2025-01-22", value: 46 },

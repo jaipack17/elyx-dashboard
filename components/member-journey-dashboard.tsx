@@ -5,9 +5,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Progress } from "@/components/ui/progress"
+
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { CalendarDays, Clock, User, Activity, MessageSquare, TrendingUp, FileText, Menu, Users } from "lucide-react"
+import { CalendarDays, User, Activity, MessageSquare, TrendingUp, FileText, Menu, Users } from "lucide-react"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { MemberTimeline } from "./member-timeline"
 import { DecisionTracker } from "./decision-tracker"
@@ -250,14 +250,14 @@ export function MemberJourneyDashboard() {
 
         {/* Content based on active tab */}
         {activeTab === "timeline" && (
-          <MemberTimeline memberId={memberData.id} selectedDate={selectedDate} onDateSelect={setSelectedDate} joinDate={memberData.joinDate} />
+          <MemberTimeline selectedDate={selectedDate} onDateSelect={setSelectedDate} joinDate={memberData.joinDate} />
         )}
         {activeTab === "decisions" && <DecisionTracker memberId={memberData.id} />}
         {activeTab === "performance" && <PerformanceMetrics memberId={memberData.id} />}
         {activeTab === "persona" && <PersonaAnalysis memberId={memberData.id} />}
-        {activeTab === "chat" && <ChatAgent memberId={memberData.id} />}
+        {activeTab === "chat" && <ChatAgent />}
         {activeTab === "health-summary" && <HealthRecommendationSummary />}
-        {activeTab === "metrics" && <MetricsDashboard memberId={memberData.id} />}
+        {activeTab === "metrics" && <MetricsDashboard />}
         {activeTab === "test-reports" && <TestReports />}
       </div>
     </div>
