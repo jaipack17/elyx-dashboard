@@ -5,15 +5,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Calendar } from "@/components/ui/calendar"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
-import { Bot, User } from "lucide-react"
+import { User } from "lucide-react"
 import { format } from "date-fns"
 import allConversations from "@/data/all_conversations.json"
 
-interface ChatAgentProps {
-  memberId: string
-}
-
-export function ChatAgent({ memberId }: ChatAgentProps) {
+export function ChatAgent() {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date("2025-01-15"))
 
   const conversationsForSelectedDate = allConversations.filter(

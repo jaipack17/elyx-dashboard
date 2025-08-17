@@ -22,10 +22,18 @@ export const getRecommendationEvents = () => {
     )
 
     if (experts.length > 0) {
-      const lastExpertMessage = conversation.conversation.findLast((msg) => {
-        const participant = msg.split(":")[0]
-        return experts.includes(participant)
-      })
+      let lastExpertMessage = null;
+      if (Array.isArray(conversation.conversation)) {
+        lastExpertMessage = conversation.conversation.findLast((msg) => {
+          const participant = msg.split(":")[0]
+          return experts.includes(participant)
+        })
+      } else if (typeof conversation.conversation === 'string') {
+        const participant = conversation.conversation.split(":")[0]
+        if (experts.includes(participant)) {
+          lastExpertMessage = conversation.conversation
+        }
+      }
 
       if (lastExpertMessage) {
         const randomDate = getRandomDate(startDate, endDate)

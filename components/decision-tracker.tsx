@@ -2,11 +2,11 @@
 
 import { useState } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
+
+
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Progress } from "@/components/ui/progress"
+
+
 import {
   Pill,
   Stethoscope,
@@ -17,19 +17,13 @@ import {
   AlertTriangle,
   CheckCircle,
   Clock,
-  ArrowRight,
   FileText,
 } from "lucide-react"
 import { format } from "date-fns"
 import expertRecommendations from "@/data/expert_recommendations.json"
 
 interface Recommendation {
-  dietary_recommendations?: (string | { item: string; limit: string; boost_option: string })[];
-  supplements?: (string | { drug: string; dose: string; timing: string } | { name: string; dose: string; timing: string; start_at: string; monitor: string; adjust_if: string; taper_to: string })[];
-  workouts?: string[];
-  trackers?: string[];
-  lifestyle_recommendations?: string[];
-  medicines?: string[];
+  [key: string]: (string | { [key: string]: unknown })[];
 }
 
 interface Decision {
@@ -51,44 +45,7 @@ const decisions: Decision[] = expertRecommendations.map((recommendation, index) 
   recommendations: recommendation.recommendations,
 }));
 
-const getDecisionIcon = (type: string) => {
-  switch (type) {
-    case "medication":
-      return <Pill className="h-5 w-5" />
-    case "therapy":
-      return <Brain className="h-5 w-5" />
-    case "treatment":
-      return <Stethoscope className="h-5 w-5" />
-    case "diagnostic":
-      return <Activity className="h-5 w-5" />
-    default:
-      return <FileText className="h-5 w-5" />
-  }
-}
 
-const getOutcomeIcon = (outcome: string) => {
-  switch (outcome) {
-    case "positive":
-      return <CheckCircle className="h-4 w-4 text-green-600" />
-    case "negative":
-      return <AlertTriangle className="h-4 w-4 text-red-600" />
-    case "pending":
-      return <Clock className="h-4 w-4 text-yellow-600" />
-    default:
-      return <Clock className="h-4 w-4 text-gray-600" />
-  }
-}
-
-const getTrendIcon = (trend: string) => {
-  switch (trend) {
-    case "up":
-      return <TrendingUp className="h-3 w-3 text-red-500" />
-    case "down":
-      return <TrendingDown className="h-3 w-3 text-green-500" />
-    default:
-      return <div className="h-3 w-3 rounded-full bg-gray-400" />
-  }
-}
 
 export function DecisionTracker({ memberId }: DecisionTrackerProps) {
   const [selectedDecision, setSelectedDecision] = useState<Decision | null>(decisions[0])
@@ -161,7 +118,7 @@ export function DecisionTracker({ memberId }: DecisionTrackerProps) {
                                 {Object.entries(item).map(([itemKey, itemValue]) => (
                                   <div key={itemKey}>
                                     <span className="font-semibold">{itemKey.replace(/_/g, " ")}: </span>
-                                    <span>{itemValue}</span>
+                                    <span>{String(itemValue)}</span>
                                   </div>
                                 ))}
                               </div>

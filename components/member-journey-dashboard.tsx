@@ -253,9 +253,9 @@ export function MemberJourneyDashboard() {
           <MemberTimeline memberId={memberData.id} selectedDate={selectedDate} onDateSelect={setSelectedDate} joinDate={memberData.joinDate} />
         )}
         {activeTab === "decisions" && <DecisionTracker memberId={memberData.id} />}
-        {activeTab === "performance" && <PerformanceMetrics />}
+        {activeTab === "performance" && <PerformanceMetrics memberId={memberData.id} />}
         {activeTab === "persona" && <PersonaAnalysis memberId={memberData.id} />}
-        {activeTab === "chat" && <ChatAgent />}
+        {activeTab === "chat" && <ChatAgent memberId={memberData.id} />}
         {activeTab === "health-summary" && <HealthRecommendationSummary />}
         {activeTab === "metrics" && <MetricsDashboard memberId={memberData.id} />}
         {activeTab === "test-reports" && <TestReports />}

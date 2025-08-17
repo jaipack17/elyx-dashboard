@@ -28,7 +28,7 @@ export function HealthRecommendationSummary() {
                             {Object.entries(item).map(([itemKey, itemValue]) => (
                               <div key={itemKey}>
                                 <span className="font-semibold">{itemKey.replace(/_/g, " ")}: </span>
-                                <span>{itemValue}</span>
+                                <span>{String(itemValue)}</span>
                               </div>
                             ))}
                           </div>
