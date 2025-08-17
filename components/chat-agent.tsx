@@ -81,42 +81,50 @@ export function ChatAgent({ memberId }: ChatAgentProps) {
               <CardContent>
                 <ScrollArea className="h-72">
                   <div className="space-y-4">
-                    {conversation.conversation.map((message, msgIndex) => {
-                      const [participant, ...text] = message.split(":")
-                      const isUser = participant.includes("Rohan Patel")
+                    {Array.isArray(conversation.conversation) ? (
+                      conversation.conversation.map((message, msgIndex) => {
+                        const [participant, ...text] = message.split(":")
+                        const isUser = participant.includes("Rohan Patel")
 
-                      return (
-                        <div
-                          key={msgIndex}
-                          className={`flex gap-3 ${
-                            isUser ? "justify-end" : ""
-                          }`}>
-                          {!isUser && (
-                            <Avatar className="h-8 w-8 flex-shrink-0">
-                              <AvatarFallback className="bg-secondary text-secondary-foreground">
-                                {getInitials(participant)}
-                              </AvatarFallback>
-                            </Avatar>
-                          )}
+                        return (
                           <div
-                            className={`max-w-[85%] sm:max-w-[80%] rounded-lg p-3 ${
-                              isUser
-                                ? "bg-primary text-primary-foreground ml-auto"
-                                : "bg-muted text-muted-foreground"
-                            }`}>
-                            <p className="font-semibold text-sm">{participant}</p>
-                            <div className="whitespace-pre-wrap text-sm">{renderMessage(text.join(":"))}</div>
+                            key={msgIndex}
+                            className={`flex gap-3 ${
+                              isUser ? "justify-end" : ""
+                            }`}
+                          >
+                            {!isUser && (
+                              <Avatar className="h-8 w-8 flex-shrink-0">
+                                <AvatarFallback className="bg-secondary text-secondary-foreground">
+                                  {getInitials(participant)}
+                                </AvatarFallback>
+                              </Avatar>
+                            )}
+                            <div
+                              className={`max-w-[85%] sm:max-w-[80%] rounded-lg p-3 ${
+                                isUser
+                                  ? "bg-primary text-primary-foreground ml-auto"
+                                  : "bg-muted text-muted-foreground"
+                              }`}
+                            >
+                              <p className="font-semibold text-sm">{participant}</p>
+                              <div className="whitespace-pre-wrap text-sm">{renderMessage(text.join(":"))}</div>
+                            </div>
+                            {isUser && (
+                              <Avatar className="h-8 w-8 flex-shrink-0">
+                                <AvatarFallback className="bg-primary text-primary-foreground">
+                                  <User className="h-4 w-4" />
+                                </AvatarFallback>
+                              </Avatar>
+                            )}
                           </div>
-                          {isUser && (
-                            <Avatar className="h-8 w-8 flex-shrink-0">
-                              <AvatarFallback className="bg-primary text-primary-foreground">
-                                <User className="h-4 w-4" />
-                              </AvatarFallback>
-                            </Avatar>
-                          )}
-                        </div>
-                      )
-                    })}
+                        )
+                      })
+                    ) : (
+                      <div className="text-center text-muted-foreground">
+                        {conversation.conversation}
+                      </div>
+                    )}
                   </div>
                 </ScrollArea>
               </CardContent>
