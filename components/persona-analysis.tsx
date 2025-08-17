@@ -46,8 +46,7 @@ const memberPersona = {
   description:
     "Analytical, driven, values efficiency and evidence-based approaches. Highly motivated and ready to act, but time-constrained. Needs clear, concise action plans and data-driven insights.",
   avatar: "/woman-healthcare-patient.png",
-  confidenceScore: 87,
-  lastUpdated: "2025-12-15",
+  lastUpdated: "2025-8-15",
 }
 
 const personalityTraits = [
@@ -58,19 +57,6 @@ const personalityTraits = [
   { trait: "Tech-Savvy", score: 75, description: "Comfortable with digital tools" },
   { trait: "Collaborative", score: 65, description: "Values professional guidance" },
 ]
-
-const communicationStyle = {
-  preferredChannels: [
-    { channel: "Email", preference: 85, usage: "Detailed updates and reports" },
-    { channel: "App Messages", preference: 70, usage: "Quick questions and reminders" },
-    { channel: "Video Calls", preference: 60, usage: "Complex discussions" },
-    { channel: "Phone Calls", preference: 45, usage: "Urgent matters only" },
-    { channel: "Text Messages", preference: 30, usage: "Appointment reminders" },
-  ],
-  communicationFrequency: "Weekly structured updates",
-  preferredTone: "Professional and informative",
-  responseTime: "Within 24 hours",
-}
 
 const behaviorPatterns = [
   {
@@ -99,14 +85,6 @@ const behaviorPatterns = [
   },
 ]
 
-const motivationFactors = [
-  { factor: "Health Outcomes", importance: 95, type: "primary" },
-  { factor: "Family Wellbeing", importance: 88, type: "primary" },
-  { factor: "Professional Performance", importance: 75, type: "secondary" },
-  { factor: "Long-term Independence", importance: 92, type: "primary" },
-  { factor: "Cost Management", importance: 65, type: "secondary" },
-]
-
 const riskFactors = [
   {
     factor: "Perfectionism",
@@ -128,13 +106,6 @@ const riskFactors = [
   },
 ]
 
-const engagementPreferences = {
-  learningStyle: "Visual and analytical",
-  contentFormat: ["Detailed reports", "Charts and graphs", "Step-by-step guides"],
-  interactionStyle: "Structured and goal-oriented",
-  feedbackPreference: "Specific and actionable",
-  supportLevel: "Moderate - values independence with professional guidance",
-}
 
 const radarData = [
   { subject: "Analytical", A: 85, fullMark: 100 },
@@ -145,35 +116,6 @@ const radarData = [
   { subject: "Collaborative", A: 65, fullMark: 100 },
 ]
 
-const recommendedApproaches = [
-  {
-    category: "Communication",
-    recommendations: [
-      "Provide detailed explanations with supporting data",
-      "Use charts and graphs to illustrate progress",
-      "Send structured weekly progress reports",
-      "Respond to questions with comprehensive information",
-    ],
-  },
-  {
-    category: "Treatment Planning",
-    recommendations: [
-      "Set clear, measurable goals with timelines",
-      "Explain the rationale behind each recommendation",
-      "Provide multiple options with pros/cons analysis",
-      "Include research references when possible",
-    ],
-  },
-  {
-    category: "Engagement",
-    recommendations: [
-      "Leverage technology for tracking and monitoring",
-      "Provide educational resources and tools",
-      "Schedule regular check-ins with structured agendas",
-      "Celebrate achievements with specific metrics",
-    ],
-  },
-]
 
 export function PersonaAnalysis({ memberId }: PersonaAnalysisProps) {
   return (
@@ -184,10 +126,6 @@ export function PersonaAnalysis({ memberId }: PersonaAnalysisProps) {
           <h3 className="text-2xl font-serif font-bold">Member Persona Analysis</h3>
           <p className="text-muted-foreground">AI-powered insights into member behavior and preferences</p>
         </div>
-        <Badge variant="secondary" className="flex items-center gap-1">
-          <Brain className="h-3 w-3" />
-          Confidence: {memberPersona.confidenceScore}%
-        </Badge>
       </div>
 
       {/* Persona Overview */}
@@ -206,9 +144,6 @@ export function PersonaAnalysis({ memberId }: PersonaAnalysisProps) {
             <div className="flex-1">
               <CardTitle className="font-serif font-bold text-xl">{memberPersona.personaType}</CardTitle>
               <CardDescription className="text-base mt-1">{memberPersona.description}</CardDescription>
-              <p className="text-sm text-muted-foreground mt-2">
-                Last updated: {memberPersona.lastUpdated} • Confidence: {memberPersona.confidenceScore}%
-              </p>
             </div>
           </div>
         </CardHeader>
@@ -217,10 +152,7 @@ export function PersonaAnalysis({ memberId }: PersonaAnalysisProps) {
       <Tabs defaultValue="personality" className="w-full">
         <TabsList className="grid w-full grid-cols-5">
           <TabsTrigger value="personality">Personality</TabsTrigger>
-          <TabsTrigger value="communication">Communication</TabsTrigger>
           <TabsTrigger value="behavior">Behavior</TabsTrigger>
-          <TabsTrigger value="motivation">Motivation</TabsTrigger>
-          <TabsTrigger value="recommendations">Recommendations</TabsTrigger>
         </TabsList>
 
         <TabsContent value="personality" className="space-y-6">
@@ -267,77 +199,6 @@ export function PersonaAnalysis({ memberId }: PersonaAnalysisProps) {
                       <p className="text-xs text-muted-foreground">{trait.description}</p>
                     </div>
                   ))}
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </TabsContent>
-
-        <TabsContent value="communication" className="space-y-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* Communication Preferences */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="font-serif font-bold">Channel Preferences</CardTitle>
-                <CardDescription>Preferred communication methods and usage</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  {communicationStyle.preferredChannels.map((channel, index) => (
-                    <div key={index} className="space-y-2">
-                      <div className="flex items-center justify-between">
-                        <span className="font-medium text-sm">{channel.channel}</span>
-                        <span className="text-sm font-semibold">{channel.preference}%</span>
-                      </div>
-                      <Progress value={channel.preference} className="h-2" />
-                      <p className="text-xs text-muted-foreground">{channel.usage}</p>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Communication Style Details */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="font-serif font-bold">Communication Style</CardTitle>
-                <CardDescription>Preferred interaction patterns</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center gap-3 p-3 bg-muted rounded-lg">
-                  <Clock className="h-5 w-5 text-chart-1" />
-                  <div>
-                    <p className="font-medium text-sm">Response Time</p>
-                    <p className="text-sm text-muted-foreground">{communicationStyle.responseTime}</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3 p-3 bg-muted rounded-lg">
-                  <MessageCircle className="h-5 w-5 text-chart-2" />
-                  <div>
-                    <p className="font-medium text-sm">Preferred Tone</p>
-                    <p className="text-sm text-muted-foreground">{communicationStyle.preferredTone}</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3 p-3 bg-muted rounded-lg">
-                  <Calendar className="h-5 w-5 text-chart-3" />
-                  <div>
-                    <p className="font-medium text-sm">Frequency</p>
-                    <p className="text-sm text-muted-foreground">{communicationStyle.communicationFrequency}</p>
-                  </div>
-                </div>
-
-                <div className="p-3 bg-accent/10 rounded-lg">
-                  <h5 className="font-semibold text-sm mb-2 flex items-center gap-2">
-                    <Lightbulb className="h-4 w-4" />
-                    Key Insights
-                  </h5>
-                  <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>• Prefers detailed, structured communication</li>
-                    <li>• Values professional, informative tone</li>
-                    <li>• Responds well to data-backed explanations</li>
-                  </ul>
                 </div>
               </CardContent>
             </Card>
@@ -421,147 +282,6 @@ export function PersonaAnalysis({ memberId }: PersonaAnalysisProps) {
                     </div>
                   </div>
                 ))}
-              </div>
-            </CardContent>
-          </Card>
-        </TabsContent>
-
-        <TabsContent value="motivation" className="space-y-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* Motivation Factors */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="font-serif font-bold">Motivation Factors</CardTitle>
-                <CardDescription>What drives this member's health decisions</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  {motivationFactors.map((factor, index) => (
-                    <div key={index} className="space-y-2">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <span className="font-medium text-sm">{factor.factor}</span>
-                          <Badge variant={factor.type === "primary" ? "default" : "secondary"} className="text-xs">
-                            {factor.type}
-                          </Badge>
-                        </div>
-                        <span className="text-sm font-semibold">{factor.importance}%</span>
-                      </div>
-                      <Progress value={factor.importance} className="h-2" />
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Engagement Preferences */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="font-serif font-bold">Engagement Preferences</CardTitle>
-                <CardDescription>How this member prefers to learn and interact</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="p-3 bg-muted rounded-lg">
-                  <h5 className="font-semibold text-sm mb-2 flex items-center gap-2">
-                    <BookOpen className="h-4 w-4" />
-                    Learning Style
-                  </h5>
-                  <p className="text-sm text-muted-foreground">{engagementPreferences.learningStyle}</p>
-                </div>
-
-                <div className="p-3 bg-muted rounded-lg">
-                  <h5 className="font-semibold text-sm mb-2 flex items-center gap-2">
-                    <Smartphone className="h-4 w-4" />
-                    Content Format
-                  </h5>
-                  <ul className="text-sm text-muted-foreground space-y-1">
-                    {engagementPreferences.contentFormat.map((format, i) => (
-                      <li key={i}>• {format}</li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="p-3 bg-muted rounded-lg">
-                  <h5 className="font-semibold text-sm mb-2 flex items-center gap-2">
-                    <Users className="h-4 w-4" />
-                    Support Level
-                  </h5>
-                  <p className="text-sm text-muted-foreground">{engagementPreferences.supportLevel}</p>
-                </div>
-
-                <div className="p-3 bg-muted rounded-lg">
-                  <h5 className="font-semibold text-sm mb-2 flex items-center gap-2">
-                    <Star className="h-4 w-4" />
-                    Feedback Style
-                  </h5>
-                  <p className="text-sm text-muted-foreground">{engagementPreferences.feedbackPreference}</p>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </TabsContent>
-
-        <TabsContent value="recommendations" className="space-y-6">
-          <div className="grid grid-cols-1 gap-6">
-            {recommendedApproaches.map((approach, index) => (
-              <Card key={index}>
-                <CardHeader>
-                  <CardTitle className="font-serif font-bold flex items-center gap-2">
-                    <Target className="h-5 w-5 text-chart-1" />
-                    {approach.category} Recommendations
-                  </CardTitle>
-                  <CardDescription>Tailored approaches for optimal engagement</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    {approach.recommendations.map((rec, i) => (
-                      <div key={i} className="flex items-start gap-3 p-3 bg-green-50 rounded-lg">
-                        <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                        <p className="text-sm">{rec}</p>
-                      </div>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          {/* Summary Card */}
-          <Card className="bg-accent/5">
-            <CardHeader>
-              <CardTitle className="font-serif font-bold flex items-center gap-2">
-                <Lightbulb className="h-5 w-5 text-chart-2" />
-                Key Takeaways
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-3">
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-chart-1 rounded-full mt-2" />
-                  <p className="text-sm">
-                    <strong>Communication:</strong> Use detailed, data-driven explanations with visual aids and
-                    structured formats.
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-chart-2 rounded-full mt-2" />
-                  <p className="text-sm">
-                    <strong>Motivation:</strong> Focus on health outcomes and family wellbeing as primary drivers.
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-chart-3 rounded-full mt-2" />
-                  <p className="text-sm">
-                    <strong>Engagement:</strong> Leverage technology and provide educational resources with clear
-                    metrics.
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-chart-4 rounded-full mt-2" />
-                  <p className="text-sm">
-                    <strong>Risk Management:</strong> Address perfectionism by emphasizing progress over perfection.
-                  </p>
-                </div>
               </div>
             </CardContent>
           </Card>

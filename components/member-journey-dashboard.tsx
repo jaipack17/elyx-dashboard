@@ -16,6 +16,7 @@ import { PersonaAnalysis } from "./persona-analysis"
 import { ChatAgent } from "./chat-agent"
 import { PerformanceMetrics } from "./performance-metrics"
 import { HealthRecommendationSummary } from "./health-recommendation-summary"
+import { TestReports } from "./test-reports"
 
 // Sample member data
 const memberData = {
@@ -164,6 +165,17 @@ export function MemberJourneyDashboard() {
           Chat Agent
         </Button>
         <Button
+          variant={activeTab === "test-reports" ? "default" : "ghost"}
+          className="w-full justify-start"
+          onClick={() => {
+            setActiveTab("test-reports")
+            setIsMobileSidebarOpen(false)
+          }}
+        >
+          <FileText className="mr-2 h-4 w-4" />
+          Test Reports
+        </Button>
+        <Button
           variant={activeTab === "health-summary" ? "default" : "ghost"}
           className="w-full justify-start"
           onClick={() => {
@@ -232,6 +244,7 @@ export function MemberJourneyDashboard() {
             {activeTab === "chat" && "Chat Agents"}
             {activeTab === "health-summary" && "Health Recommendation Summary"}
             {activeTab === "metrics" && "Internal Metrics"}
+            {activeTab === "test-reports" && "Test Reports"}
           </Badge>
         </div>
 
@@ -245,6 +258,7 @@ export function MemberJourneyDashboard() {
         {activeTab === "chat" && <ChatAgent />}
         {activeTab === "health-summary" && <HealthRecommendationSummary />}
         {activeTab === "metrics" && <MetricsDashboard memberId={memberData.id} />}
+        {activeTab === "test-reports" && <TestReports />}
       </div>
     </div>
   )

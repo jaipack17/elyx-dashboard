@@ -1,0 +1,463 @@
+{
+    "test_report": [
+        {
+            "panel_name": "General Health Assessment",
+            "tests": [
+                {
+                    "test_name": "Blood Pressure",
+                    "result": "125/78 mmHg"
+                },
+                {
+                    "test_name": "Total Cholesterol",
+                    "result": "178 mg/dL"
+                },
+                {
+                    "test_name": "LDL\u2011C",
+                    "result": "110 mg/dL"
+                },
+                {
+                    "test_name": "HDL\u2011C",
+                    "result": "45 mg/dL"
+                },
+                {
+                    "test_name": "Triglycerides",
+                    "result": "140 mg/dL"
+                },
+                {
+                    "test_name": "Fasting Glucose",
+                    "result": "92 mg/dL"
+                },
+                {
+                    "test_name": "HbA1c",
+                    "result": "5.8%"
+                },
+                {
+                    "test_name": "High\u2011Sensitivity CRP",
+                    "result": "2.5 mg/L"
+                },
+                {
+                    "test_name": "Creatinine",
+                    "result": "0.9 mg/dL"
+                },
+                {
+                    "test_name": "eGFR",
+                    "result": "100 mL/min/1.73m\u00b2"
+                },
+                {
+                    "test_name": "Electrolytes (Na\u207a K\u207a Cl\u207b)",
+                    "result": "Na 140 mEq/L, K 4.1 mEq/L, Cl 102 mEq/L"
+                },
+                {
+                    "test_name": "Complete Blood Count",
+                    "result": "WBC 5.5\u00d710\u00b3/\u00b5L, Hgb 16 g/dL, Plt 250\u00d710\u00b3/\u00b5L"
+                },
+                {
+                    "test_name": "TSH",
+                    "result": "2.0 \u03bcIU/mL"
+                },
+                {
+                    "test_name": "Vitamin D (25(OH)D)",
+                    "result": "28 ng/mL"
+                },
+                {
+                    "test_name": "Cognitive Function (MoCA)",
+                    "result": "26/30"
+                },
+                {
+                    "test_name": "Sleep Duration",
+                    "result": "6.5 hours/night"
+                }
+            ]
+        },
+        {
+            "panel_name": "Cancer Screening",
+            "tests": [
+                {
+                    "test_name": "Colonoscopy",
+                    "result": "Negative; mucosa appears healthy, no polyps"
+                },
+                {
+                    "test_name": "Prostate-Specific Antigen (PSA)",
+                    "result": "1.4 ng/mL"
+                },
+                {
+                    "test_name": "Low-Dose CT (LDCT) Chest",
+                    "result": "No nodules >4mm; no pulmonary infiltrates"
+                },
+                {
+                    "test_name": "Skin Examination",
+                    "result": "No suspicious lesions; skin appearance normal"
+                }
+            ]
+        },
+        {
+            "panel_name": "Advanced Cardiovascular Assessment",
+            "tests": [
+                {
+                    "test_name": "NT-proBNP",
+                    "result": "95 pg/mL"
+                },
+                {
+                    "test_name": "hs-Troponin I",
+                    "result": "3 ng/L"
+                },
+                {
+                    "test_name": "Lipoprotein(a) [Lp(a)]",
+                    "result": "28 nmol/L"
+                },
+                {
+                    "test_name": "Apolipoprotein B (ApoB)",
+                    "result": "90 mg/dL"
+                },
+                {
+                    "test_name": "Apolipoprotein A1 (ApoA1)",
+                    "result": "130 mg/dL"
+                },
+                {
+                    "test_name": "Carotid Intima-Media Thickness (IMT)",
+                    "result": "0.55 mm"
+                },
+                {
+                    "test_name": "ECG",
+                    "result": "Sinus rhythm 68 bpm, normal axis, no ST/T changes"
+                },
+                {
+                    "test_name": "Echocardiogram (TTE)",
+                    "result": "LV ejection fraction 60%, mild concentric LV hypertrophy"
+                },
+                {
+                    "test_name": "Coronary calcium score (CT)",
+                    "result": "0 (no calcium)"
+                },
+                {
+                    "test_name": "Pulse Wave Velocity",
+                    "result": "7.6 m/s"
+                }
+            ]
+        },
+        {
+            "panel_name": "Overall health and fitness",
+            "tests": [
+                {
+                    "test_name": "Body Mass Index",
+                    "result": "27.2 kg/m\u00b2"
+                },
+                {
+                    "test_name": "Resting Heart Rate",
+                    "result": "72 bpm"
+                },
+                {
+                    "test_name": "VO2 Max",
+                    "result": "44 ml/kg/min"
+                },
+                {
+                    "test_name": "Step Count (avg/day)",
+                    "result": "11,500 steps"
+                },
+                {
+                    "test_name": "Body Fat Percentage",
+                    "result": "18.5%"
+                },
+                {
+                    "test_name": "Blood Lactate Threshold",
+                    "result": "4.5 mmol/L"
+                },
+                {
+                    "test_name": "Sleep Quality Score",
+                    "result": "75%"
+                },
+                {
+                    "test_name": "Omega\u20113 Index",
+                    "result": "5.6%"
+                }
+            ]
+        },
+        {
+            "panel_name": "Genetic Testing",
+            "tests": [
+                {
+                    "test_name": "APOE Genotype",
+                    "result": "\u03b53/\u03b54"
+                },
+                {
+                    "test_name": "PCSK9 Loss\u2011of\u2011Function Variant",
+                    "result": "No pathogenic variant detected"
+                },
+                {
+                    "test_name": "LPA Kringle IV Type 2 Copy Number",
+                    "result": "14 copies"
+                },
+                {
+                    "test_name": "MTHFR C677T Polymorphism",
+                    "result": "Heterozygous (C/T)"
+                },
+                {
+                    "test_name": "CYP2D6 Metaboliser Status",
+                    "result": "Intermediate metaboliser (1/*4 allele)"
+                },
+                {
+                    "test_name": "GCK (Glucokinase) Variant Screening",
+                    "result": "No pathogenic variant detected"
+                }
+            ]
+        },
+        {
+            "panel_name": "Body Composition Analysis",
+            "tests": [
+                {
+                    "test_name": "Total Body Water",
+                    "result": "42 L"
+                },
+                {
+                    "test_name": "Lean Body Mass",
+                    "result": "60 kg"
+                },
+                {
+                    "test_name": "Bone Mineral Density (T-score)",
+                    "result": "-0.3"
+                },
+                {
+                    "test_name": "Visceral Fat Area",
+                    "result": "50 cm\u00b2"
+                },
+                {
+                    "test_name": "Visceral Fat Index",
+                    "result": "10"
+                },
+                {
+                    "test_name": "Skeletal Muscle Mass",
+                    "result": "30 kg"
+                },
+                {
+                    "test_name": "Protein Mass",
+                    "result": "15 kg"
+                },
+                {
+                    "test_name": "Segmental Body Composition \u2013 Upper Limb Right Arm",
+                    "result": "9 kg muscle, 1.2 kg fat"
+                },
+                {
+                    "test_name": "Segmental Body Composition \u2013 Lower Limb Left Leg",
+                    "result": "12 kg muscle, 0.9 kg fat"
+                }
+            ]
+        },
+        {
+            "panel_name": "Hormone Profiling",
+            "tests": [
+                {
+                    "test_name": "Total Testosterone",
+                    "result": "650 ng/dL"
+                },
+                {
+                    "test_name": "Free Testosterone",
+                    "result": "11 pg/mL"
+                },
+                {
+                    "test_name": "Dehydroepiandrosterone Sulfate (DHEA\u2011S)",
+                    "result": "360 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Sex Hormone\u2011Binding Globulin (SHBG)",
+                    "result": "28 nmol/L"
+                },
+                {
+                    "test_name": "Cortisol (morning 8\u202fam)",
+                    "result": "12 \u00b5g/dL"
+                }
+            ]
+        },
+        {
+            "panel_name": "Nutritional Assessment",
+            "tests": [
+                {
+                    "test_name": "Serum Albumin",
+                    "result": "4.3 g/dL"
+                },
+                {
+                    "test_name": "Prealbumin",
+                    "result": "18 mg/dL"
+                },
+                {
+                    "test_name": "Serum Transferrin",
+                    "result": "250 mg/dL"
+                },
+                {
+                    "test_name": "Serum Ferritin",
+                    "result": "75 ng/mL"
+                },
+                {
+                    "test_name": "Serum Iron",
+                    "result": "85 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Transferrin Saturation",
+                    "result": "35%"
+                },
+                {
+                    "test_name": "Serum Vitamin B12",
+                    "result": "450 pg/mL"
+                },
+                {
+                    "test_name": "Serum Folate",
+                    "result": "10 ng/mL"
+                },
+                {
+                    "test_name": "Homocysteine",
+                    "result": "9 \u00b5mol/L"
+                },
+                {
+                    "test_name": "Serum Zinc",
+                    "result": "90 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Serum Magnesium",
+                    "result": "2.1 mg/dL"
+                },
+                {
+                    "test_name": "Serum Calcium",
+                    "result": "9.5 mg/dL"
+                },
+                {
+                    "test_name": "Serum Phosphorus",
+                    "result": "4.0 mg/dL"
+                },
+                {
+                    "test_name": "Serum Uric Acid",
+                    "result": "5.5 mg/dL"
+                },
+                {
+                    "test_name": "Serum Vitamin B1 (Thiamin)",
+                    "result": "17 ng/mL"
+                },
+                {
+                    "test_name": "Serum Vitamin B3 (Niacin)",
+                    "result": "18 \u00b5g/dL"
+                },
+                {
+                    "test_name": "Serum Vitamin B5 (Pantothenic Acid)",
+                    "result": "13 nmol/L"
+                },
+                {
+                    "test_name": "Serum Vitamin B6 (Pyridoxal-5-Phosphate)",
+                    "result": "12 ng/mL"
+                },
+                {
+                    "test_name": "Serum Vitamin B7 (Biotin)",
+                    "result": "40 pg/mL"
+                },
+                {
+                    "test_name": "Serum Vitamin B8 (Betaine)",
+                    "result": "12 \u00b5mol/L"
+                },
+                {
+                    "test_name": "Serum Omega\u20113 Fatty Acids (Plasma)",
+                    "result": "7% of total fatty acids"
+                },
+                {
+                    "test_name": "Serum Vitamin E",
+                    "result": "8 mg/dL"
+                },
+                {
+                    "test_name": "Serum Vitamin A",
+                    "result": "1,200 \u00b5g/L"
+                },
+                {
+                    "test_name": "Serum Vitamin K1",
+                    "result": "0.5 ng/mL"
+                },
+                {
+                    "test_name": "Serum Selenium",
+                    "result": "70 \u00b5g/L"
+                },
+                {
+                    "test_name": "Serum Total Protein",
+                    "result": "7.2 g/dL"
+                }
+            ]
+        },
+        {
+            "panel_name": "Brain Health Assessment",
+            "tests": [
+                {
+                    "test_name": "Digit Symbol Substitution Test",
+                    "result": "36 out of 40 (high performance)"
+                },
+                {
+                    "test_name": "Trail Making Test A",
+                    "result": "48 seconds (within normal range)"
+                },
+                {
+                    "test_name": "Trail Making Test B",
+                    "result": "115 seconds (slightly above average, to monitor)"
+                },
+                {
+                    "test_name": "Serum Neurofilament Light Chain (NfL)",
+                    "result": "9 pg/mL (within healthy adult range)"
+                },
+                {
+                    "test_name": "Serum Brain-Derived Neurotrophic Factor (BDNF)",
+                    "result": "18 ng/mL (within normal physiological range)"
+                },
+                {
+                    "test_name": "MRI Brain White Matter Hyperintensity Volume",
+                    "result": "0.2 mL (minimal, consistent with healthy aging)"
+                },
+                {
+                    "test_name": "Cognitive Composite Score (non-MoCA)",
+                    "result": "92/100 (above average, monitor for gains)"
+                }
+            ]
+        },
+        {
+            "panel_name": "Skin Analysis",
+            "tests": [
+                {
+                    "test_name": "Skin Hydration (Stratum Corneum Moisture)",
+                    "result": "38%"
+                },
+                {
+                    "test_name": "Skin Elasticity (Cutometer Rf)",
+                    "result": "0.45"
+                },
+                {
+                    "test_name": "Transepithelial Water Loss (TEWL)",
+                    "result": "10 g/m\u00b2/h"
+                },
+                {
+                    "test_name": "Sebum Level (Surface Sebum)",
+                    "result": "0.4 mg/cm\u00b2"
+                },
+                {
+                    "test_name": "Skin Phototype (Melanin Index)",
+                    "result": "120 (fair)"
+                },
+                {
+                    "test_name": "Skin pH",
+                    "result": "5.5"
+                },
+                {
+                    "test_name": "Dermal Collagen Density (HVEM score)",
+                    "result": "85%"
+                },
+                {
+                    "test_name": "Skin Microbiome Diversity (Shannon Index)",
+                    "result": "3.7"
+                },
+                {
+                    "test_name": "Epidermal Thickness (Microscopy)",
+                    "result": "1.2 mm"
+                }
+            ]
+        },
+        {
+            "panel_name": "Extended care",
+            "tests": [
+                {
+                    "test_name": "Error generating content",
+                    "result": "Expecting value: line 1 column 1 (char 0)"
+                }
+            ]
+        }
+    ]
+}

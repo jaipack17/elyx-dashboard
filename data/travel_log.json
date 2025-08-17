@@ -1,7 +1,50 @@
 [
     {
         "start_date": "2025-01-29",
-        "end_date": "2025-02-05",
-        "destination": "USA"
+        "end_date": "2025-02-04",
+        "destination": "USA",
+        "duration_days": 6
+    },
+    {
+        "start_date": "2025-02-26",
+        "end_date": "2025-03-04",
+        "destination": "Jakarta",
+        "duration_days": 6
+    },
+    {
+        "start_date": "2025-03-27",
+        "end_date": "2025-04-02",
+        "destination": "UK",
+        "duration_days": 6
+    },
+    {
+        "start_date": "2025-04-21",
+        "end_date": "2025-04-28",
+        "destination": "USA",
+        "duration_days": 7
+    },
+    {
+        "start_date": "2025-05-23",
+        "end_date": "2025-05-31",
+        "destination": "Jakarta",
+        "duration_days": 8
+    },
+    {
+        "start_date": "2025-06-17",
+        "end_date": "2025-06-22",
+        "destination": "SK",
+        "duration_days": 5
+    },
+    {
+        "start_date": "2025-07-14",
+        "end_date": "2025-07-22",
+        "destination": "UK",
+        "duration_days": 8
+    },
+    {
+        "start_date": "2025-08-14",
+        "end_date": "2025-08-23",
+        "destination": "USA",
+        "duration_days": 9
     }
 ]

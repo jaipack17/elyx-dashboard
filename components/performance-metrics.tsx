@@ -11,11 +11,16 @@ import {
   ResponsiveContainer,
 } from "recharts"
 
+
+import { getPerformanceMetricsData } from "@/lib/test-report-data"
+
 interface PerformanceMetricsProps {
   memberId: string
 }
 
 // Sample data for the charts
+const { cholesterolData, vo2MaxData } = getPerformanceMetricsData();
+
 const generateData = (start, end, min, max) => {
   const data = [];
   let currentDate = new Date(start);
@@ -29,12 +34,26 @@ const generateData = (start, end, min, max) => {
   return data;
 };
 
-const cholesterolData = generateData('2025-01-01', '2026-12-01', 150, 250);
-const vo2MaxData = generateData('2025-01-01', '2026-12-01', 30, 50);
-const biologicalAgeData = generateData('2025-01-01', '2026-12-01', 40, 50);
-const stressResilienceData = generateData('2025-01-01', '2026-12-01', 60, 90);
-const cognitiveAssessmentData = generateData('2025-01-01', '2026-12-01', 80, 120);
-const sleepQualityData = generateData('2025-01-01', '2026-12-01', 70, 95);
+const biologicalAgeData = [
+  { date: "2025-01-22", value: 46 },
+  { date: "2025-04-09", value: 45.8 },
+  { date: "2025-07-02", value: 45.5 },
+];
+const stressResilienceData = [
+  { date: "2025-01-22", value: 70 },
+  { date: "2025-04-09", value: 72 },
+  { date: "2025-07-02", value: 75 },
+];
+const cognitiveAssessmentData = [
+  { date: "2025-01-22", value: 26 },
+  { date: "2025-04-09", value: 27 },
+  { date: "2025-07-02", value: 27 },
+];
+const sleepQualityData = [
+  { date: "2025-01-22", value: 6.5 },
+  { date: "2025-04-09", value: 7.0 },
+  { date: "2025-07-02", value: 7.2 },
+];
 
 export function PerformanceMetrics({ memberId }: PerformanceMetricsProps) {
   return (
@@ -58,7 +77,9 @@ export function PerformanceMetrics({ memberId }: PerformanceMetricsProps) {
                 <XAxis dataKey="date" />
                 <YAxis />
                 <Tooltip />
-                <Line type="monotone" dataKey="value" stroke="hsl(var(--chart-2))" />
+                <Line type="monotone" dataKey="Total Cholesterol" stroke="#000000" />
+                <Line type="monotone" dataKey="LDL Cholesterol" stroke="#FF0000" />
+                <Line type="monotone" dataKey="HDL Cholesterol" stroke="#0000FF" />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
@@ -76,7 +97,7 @@ export function PerformanceMetrics({ memberId }: PerformanceMetricsProps) {
                 <XAxis dataKey="date" />
                 <YAxis />
                 <Tooltip />
-                <Line type="monotone" dataKey="value" stroke="hsl(var(--chart-2))" />
+                <Line type="monotone" dataKey="value" stroke="#000000" />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
@@ -94,7 +115,7 @@ export function PerformanceMetrics({ memberId }: PerformanceMetricsProps) {
                 <XAxis dataKey="date" />
                 <YAxis />
                 <Tooltip />
-                <Line type="monotone" dataKey="value" stroke="hsl(var(--chart-3))" />
+                <Line type="monotone" dataKey="value" stroke="#000000" />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
@@ -112,7 +133,7 @@ export function PerformanceMetrics({ memberId }: PerformanceMetricsProps) {
                 <XAxis dataKey="date" />
                 <YAxis />
                 <Tooltip />
-                <Line type="monotone" dataKey="value" stroke="hsl(var(--chart-4))" />
+                <Line type="monotone" dataKey="value" stroke="#000000" />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
@@ -130,7 +151,7 @@ export function PerformanceMetrics({ memberId }: PerformanceMetricsProps) {
                 <XAxis dataKey="date" />
                 <YAxis />
                 <Tooltip />
-                <Line type="monotone" dataKey="value" stroke="hsl(var(--chart-2))" />
+                <Line type="monotone" dataKey="value" stroke="#000000" />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
@@ -148,7 +169,7 @@ export function PerformanceMetrics({ memberId }: PerformanceMetricsProps) {
                 <XAxis dataKey="date" />
                 <YAxis />
                 <Tooltip />
-                <Line type="monotone" dataKey="value" stroke="hsl(var(--chart-2))" />
+                <Line type="monotone" dataKey="value" stroke="#000000" />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>

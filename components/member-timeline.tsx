@@ -9,19 +9,21 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Pill, Stethoscope, Activity, AlertCircle, Clock, TrendingUp } from "lucide-react"
 import { format, addDays } from "date-fns"
 import travelLog from "@/data/travel_log.json"
+import { getRecommendationEvents } from "@/lib/recommendation-events"
 
 interface TimelineEvent {
   id: string
   date: string
   endDate?: string
   isRange?: boolean
-  type: "medication" | "appointment" | "test" | "milestone" | "alert"
+  type: "medication" | "appointment" | "test" | "milestone" | "alert" | "recommendation"
   title: string
   description: string
   status: "completed" | "pending" | "cancelled"
   provider?: string
   outcome?: string
   reasoning?: string
+  color?: string
 }
 
 interface MemberTimelineProps {
@@ -41,15 +43,40 @@ const timelineEvents: TimelineEvent[] = [
     description: "Member signed up for the program",
     status: "completed",
   },
-  {
-    id: "2",
-    date: travelLog[0].start_date,
-    endDate: travelLog[0].end_date,
+  ...travelLog.map((trip, index) => ({
+    id: `t-${index}`,
+    date: trip.start_date,
+    endDate: trip.end_date,
     isRange: true,
-    type: "alert",
+    type: "alert" as const,
     title: "Business Trip",
-    description: `On a business trip to ${travelLog[0].destination}`,
-    status: "completed",
+    description: `On a business trip to ${trip.destination}`,
+    status: "completed" as const,
+  })),
+  ...getRecommendationEvents(),
+  {
+    id: "r-1",
+    date: "2025-01-22",
+    type: "test" as const,
+    title: "Test Report 1 Generated",
+    description: "Test Report 1 was generated.",
+    status: "completed" as const,
+  },
+  {
+    id: "r-2",
+    date: "2025-04-09",
+    type: "test" as const,
+    title: "Test Report 2 Generated",
+    description: "Test Report 2 was generated.",
+    status: "completed" as const,
+  },
+  {
+    id: "r-3",
+    date: "2025-07-02",
+    type: "test" as const,
+    title: "Test Report 3 Generated",
+    description: "Test Report 3 was generated.",
+    status: "completed" as const,
   },
 ]
 
@@ -65,14 +92,17 @@ const getEventIcon = (type: string) => {
       return <TrendingUp className="h-4 w-4" />
     case "alert":
       return <AlertCircle className="h-4 w-4" />
+    case "recommendation":
+      return <TrendingUp className="h-4 w-4" />
     default:
       return <Clock className="h-4 w-4" />
   }
 }
 
-const getEventColor = (type: string, status: string) => {
+const getEventColor = (type: string, status: string, color?: string) => {
   if (status === "cancelled") return "text-destructive"
   if (status === "pending") return "text-muted-foreground"
+  if (color) return `text-${color}-500`
 
   switch (type) {
     case "medication":
@@ -85,6 +115,8 @@ const getEventColor = (type: string, status: string) => {
       return "text-chart-4"
     case "alert":
       return "text-destructive"
+    case "recommendation":
+      return "text-purple-500"
     default:
       return "text-foreground"
   }
@@ -99,7 +131,7 @@ export function MemberTimeline({ memberId, selectedDate, onDateSelect, joinDate 
     if (event.isRange && event.endDate) {
       const selected = new Date(selectedDate);
       const start = new Date(event.date);
-      const end = new Date(event.endDate);
+      const end = new Date(event.endDate)
       return selected >= start && selected <= end;
     } else {
       return event.date === selectedDate;
@@ -110,12 +142,14 @@ export function MemberTimeline({ memberId, selectedDate, onDateSelect, joinDate 
   const sortedEvents = [...timelineEvents].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   const signUpDate = new Date(joinDate);
-  const travelStartDate = new Date(travelLog[0].start_date);
-  const travelEndDate = new Date(travelLog[0].end_date);
+  const travelRanges = travelLog.map(trip => ({ from: new Date(trip.start_date), to: new Date(trip.end_date) }));
+
+  // const recommendationDates = recommendationEvents.map(event => new Date(event.date));
 
   const modifiers = {
     signup: signUpDate,
-    travel: { from: travelStartDate, to: travelEndDate },
+    travel: travelRanges,
+    // recommendation: recommendationDates,
     multipleEvents: (date) => {
         const eventsOnDay = timelineEvents.filter((event) => {
             if (event.isRange && event.endDate) {
@@ -134,6 +168,7 @@ export function MemberTimeline({ memberId, selectedDate, onDateSelect, joinDate 
   const modifiersClassNames = {
     signup: 'signup-day',
     travel: 'travel-day',
+    recommendation: 'recommendation-day',
     multipleEvents: 'multiple-events-day',
   }
 
@@ -152,7 +187,7 @@ export function MemberTimeline({ memberId, selectedDate, onDateSelect, joinDate 
                 {sortedEvents.map((event, index) => (
                   <div key={event.id} className="flex gap-4 pb-4 border-b border-border last:border-0">
                     <div className="flex flex-col items-center">
-                      <div className={`p-2 rounded-full bg-muted ${getEventColor(event.type, event.status)}`}>
+                      <div className={`p-2 rounded-full bg-muted ${getEventColor(event.type, event.status, event.color)}`}>
                         {getEventIcon(event.type)}
                       </div>
                       {index < sortedEvents.length - 1 && <div className="w-px h-8 bg-border mt-2" />}
@@ -238,7 +273,7 @@ export function MemberTimeline({ memberId, selectedDate, onDateSelect, joinDate 
                 {dayEvents.map((event) => (
                   <div key={event.id} className="p-3 bg-muted rounded-lg">
                     <div className="flex items-center gap-2 mb-2">
-                      <div className={getEventColor(event.type, event.status)}>{getEventIcon(event.type)}</div>
+                      <div className={getEventColor(event.type, event.status, event.color)}>{getEventIcon(event.type)}</div>
                       <h5 className="font-semibold text-sm">{event.title}</h5>
                     </div>
                     <p className="text-xs text-muted-foreground">{event.description}</p>
