@@ -13,9 +13,9 @@ import {
 import expertTimeSummary from '@/data/expert_time_summary.json'
 
 export function MetricsDashboard() {
-  const expertData = Object.entries(expertTimeSummary).map(([name, hours]) => ({
+  const expertData = Object.entries(expertTimeSummary).map(([name, minutes]) => ({
     name,
-    hours,
+    minutes,
   }))
 
   return (
@@ -38,7 +38,7 @@ export function MetricsDashboard() {
               <XAxis dataKey="name" />
               <YAxis />
               <Tooltip />
-              <Bar dataKey="hours" fill="hsl(var(--chart-1))" />
+              <Bar dataKey="minutes" fill="hsl(var(--chart-1))" />
             </BarChart>
           </ResponsiveContainer>
         </CardContent>

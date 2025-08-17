@@ -82,9 +82,6 @@ export function DecisionTracker({ memberId }: DecisionTrackerProps) {
                       <div className="flex items-center gap-3">
                         <div>
                           <h4 className="font-semibold text-sm">{decision.expert_name}</h4>
-                          <p className="text-xs text-muted-foreground">
-                            {format(new Date(decision.date), "MMM dd, yyyy")}
-                          </p>
                         </div>
                       </div>
                     </div>
