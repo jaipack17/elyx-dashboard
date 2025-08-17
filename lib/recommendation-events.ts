@@ -42,7 +42,7 @@ export const getRecommendationEvents = () => {
           id: `rec-${convIndex}`,
           date: randomDate,
           type: "recommendation" as const,
-          title: `Expert Recommendation by ${experts.join(", ")}`,
+          title: `${conversation.event_type}: ${experts.join(", ")}`,
           description: lastExpertMessage,
           status: "completed" as const,
           color: randomColor,
