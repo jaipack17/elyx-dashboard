@@ -1,7 +1,9 @@
 # Elyx Simulation
 
+<span style="color:blue">**Team NeuralVectors**: Jaikaran Singh and Ishaan Bansal @IIT Roorkee</span>.
 
-[![Foo](https://img.shields.io/badge/view-AI_ENGINE_like-blue)](https://github.com/jaipack17/elyx-dashboard/tree/main/ai_engine)
+[![Foo](https://img.shields.io/badge/view-AI_ENGINE-blue)](https://github.com/jaipack17/elyx-dashboard/tree/main/ai_engine)
+[![Bar](https://img.shields.io/badge/view-Dashboard-orange)](https://elyx-dashboard.vercel.app)
 
 
 #### This document describes how to run the Elyx simulation. The synthetic data set is generated with the help of python scripts which are present in the `ai_engine` folder.
