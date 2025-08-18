@@ -21,7 +21,7 @@ Each agent is powered by a large language model (LLM) and has a specific persona
 
 ### Technical Aspects
 
-blob:https://web.whatsapp.com/e8a1d0da-966c-4c9b-b3a0-4fb13541d970<img width="1280" height="648" alt="image" src="https://github.com/user-attachments/assets/c1ef8f48-43fe-4641-9de8-b4cc9dcb2ef9" />
+<img width="1280" height="648" alt="image" src="https://github.com/user-attachments/assets/c1ef8f48-43fe-4641-9de8-b4cc9dcb2ef9" />
 
 The multi-agent architecture is supported by several key technical components:
 
