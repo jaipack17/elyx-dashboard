@@ -1,6 +1,7 @@
 # Elyx Simulation
 
-https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=AI Engine&logoColor=white
+[https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=AI Engine&logoColor=white
+](https://img.shields.io/badge/AI_ENGINE_like-blue)
 
 #### This document describes how to run the Elyx simulation. The synthetic data set is generated with the help of python scripts which are present in the `ai_engine` folder.
 
