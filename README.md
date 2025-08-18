@@ -4,6 +4,8 @@ This document describes how to run the Elyx simulation.
 
 ## Multi-Agent Architecture
 
+### NOTE: The prompts for various agents are present inside `team_elyx.py` file
+
 The simulation employs a multi-agent architecture to model the interactions between the user and the Elyx team. The agents are:
 
 *   **The Member (Rohan Patel)**: The user of the Elyx service. The member's behavior and messages are generated based on a predefined set of events and goals.
@@ -18,6 +20,8 @@ The simulation employs a multi-agent architecture to model the interactions betw
 Each agent is powered by a large language model (LLM) and has a specific persona and knowledge base, allowing for realistic and dynamic conversations.
 
 ### Technical Aspects
+
+blob:https://web.whatsapp.com/e8a1d0da-966c-4c9b-b3a0-4fb13541d970<img width="1280" height="648" alt="image" src="https://github.com/user-attachments/assets/c1ef8f48-43fe-4641-9de8-b4cc9dcb2ef9" />
 
 The multi-agent architecture is supported by several key technical components:
 
