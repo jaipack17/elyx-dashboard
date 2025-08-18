@@ -1,6 +1,6 @@
 # Elyx Simulation
 
-<span style="color:blue">**Team NeuralVectors**: Jaikaran Singh and Ishaan Bansal @IIT Roorkee</span>.
+:wave: **Team NeuralVectors**: Jaikaran Singh and Ishaan Bansal @IIT Roorkee
 
 [![Foo](https://img.shields.io/badge/view-AI_ENGINE-blue)](https://github.com/jaipack17/elyx-dashboard/tree/main/ai_engine)
 [![Bar](https://img.shields.io/badge/view-Dashboard-orange)](https://elyx-dashboard.vercel.app)
